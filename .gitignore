@@ -1,0 +1,19 @@
+# Python caches and build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Local data and logs
+agent_history/
+*.db
+*.log
+scrape_output*.log
+arxiv_search.html
+
+# Local Claude configuration
+.claude
+.claude.json
+.claude.json.backup*
+
+# Misc
+.DS_Store

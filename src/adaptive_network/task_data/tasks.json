@@ -1,0 +1,38 @@
+[
+  {
+    "id": "cs_1",
+    "persona": "computer_science",
+    "query": "I want to review the Bachelor of Science in Computer Science program at Chico State. Which page should I open?",
+    "expected_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml"
+  },
+  {
+    "id": "cs_2",
+    "persona": "computer_science",
+    "query": "Where can I find details about the Chico State Cyber Center within the Computer Science department?",
+    "expected_url": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/cyber-center.shtml"
+  },
+  {
+    "id": "nursing_1",
+    "persona": "nursing",
+    "query": "Show me the page that lists the RN-BSN program prerequisites for Chico State nursing students.",
+    "expected_url": "https://www.csuchico.edu/nurs/programs/rn-bsn/rn-bsn-prerequisites.shtml"
+  },
+  {
+    "id": "nursing_2",
+    "persona": "nursing",
+    "query": "I need information about nursing scholarships available through Chico State. Where should I look?",
+    "expected_url": "https://www.csuchico.edu/nurs/student-resources/scholarships.shtml"
+  },
+  {
+    "id": "kine_1",
+    "persona": "kinesiology",
+    "query": "Direct me to the Chico State page that describes the Bachelor of Arts in Kinesiology.",
+    "expected_url": "https://www.csuchico.edu/academics/majors-programs/kinesiology-ba.shtml"
+  },
+  {
+    "id": "kine_2",
+    "persona": "kinesiology",
+    "query": "Where can I find an overview of the kinesiology facilities and technology resources at Chico State?",
+    "expected_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/facilities.shtml"
+  }
+]
