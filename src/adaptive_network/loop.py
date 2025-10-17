@@ -13,15 +13,41 @@ from .persona import PERSONA_CONFIG, get_persona_context
 from .subagent import run_subagent
 from .task_loader import Task, load_tasks
 
+INPUT_RATE = 0.6 / 1_000_000
+CACHED_INPUT_RATE = 0.11 / 1_000_000
+OUTPUT_RATE = 2.2 / 1_000_000
+
+
+def _compute_cost(input_tokens: int, cached_tokens: int, output_tokens: int) -> float:
+    effective_cached = min(cached_tokens or 0, input_tokens or 0)
+    effective_input = max((input_tokens or 0) - effective_cached, 0)
+    return (
+        effective_input * INPUT_RATE
+        + effective_cached * CACHED_INPUT_RATE
+        + (output_tokens or 0) * OUTPUT_RATE
+    )
+
 
 def extract_usage(raw: Mapping[str, object]) -> Dict[str, float | int]:
     usage = raw.get("usage") if isinstance(raw, Mapping) else None
     if not isinstance(usage, Mapping):
-        return {"input_tokens": None, "output_tokens": None, "cost": None, "duration_ms": None}
+        return {
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "cache_tokens": 0,
+            "cost": 0.0,
+            "duration_ms": raw.get("duration_api_ms") if isinstance(raw, Mapping) else None,
+        }
+
+    input_tokens = usage.get("input_tokens") or 0
+    output_tokens = usage.get("output_tokens") or 0
+    cache_tokens = usage.get("cache_read_input_tokens") or 0
+
     return {
-        "input_tokens": usage.get("input_tokens"),
-        "output_tokens": usage.get("output_tokens"),
-        "cost": raw.get("total_cost_usd"),
+        "input_tokens": input_tokens,
+        "output_tokens": output_tokens,
+        "cache_tokens": cache_tokens,
+        "cost": _compute_cost(input_tokens, cache_tokens, output_tokens),
         "duration_ms": raw.get("duration_api_ms"),
     }
 
