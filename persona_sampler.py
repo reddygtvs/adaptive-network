@@ -16,7 +16,7 @@ from typing import Dict, Iterable, List, Sequence, Tuple
 
 import networkx as nx
 
-from csuchico_graph_pruned import create_csuchico_graph_pruned
+from csuchico_graph_refined import create_csuchico_graph_refined
 
 
 @dataclass
@@ -156,7 +156,15 @@ def sample_trajectory(
         if current not in transitions:
             break
         choices, probs = zip(*transitions[current])
-        current = rng.choices(choices, probs)[0]
+        next_node = rng.choices(choices, probs)[0]
+        if next_node == current and len(choices) > 1:
+            alternatives = [(c, p) for c, p in transitions[current] if c != current]
+            if alternatives:
+                alt_choices, alt_probs = zip(*alternatives)
+                total = sum(alt_probs)
+                alt_probs = [p / total for p in alt_probs]
+                next_node = rng.choices(alt_choices, alt_probs)[0]
+        current = next_node
         trajectory.append(current)
 
         if rng.random() < config.stop_probability:
@@ -169,7 +177,7 @@ def generate_samples(
 ) -> List[List[str]]:
     """Convenience wrapper to generate a handful of sample trajectories."""
     config = PERSONAS[persona]
-    graph = create_csuchico_graph_pruned()
+    graph = create_csuchico_graph_refined()
     transitions = _build_transition_matrix(graph, config)
     rng = random.Random(seed)
     return [

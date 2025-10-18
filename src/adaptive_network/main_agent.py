@@ -49,7 +49,10 @@ Context pages:
             lines = lines[:-1]
         raw_text = "\n".join(lines).strip()
 
-    payload = json.loads(raw_text)
+    try:
+        payload = json.loads(raw_text)
+    except json.JSONDecodeError:
+        payload = {"task_brief": "", "notes": raw_text}
     if "task_brief" not in payload:
-        raise ValueError(f"Main agent response missing 'task_brief': {payload}")
+        payload["task_brief"] = ""
     return payload

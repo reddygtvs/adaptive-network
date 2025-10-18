@@ -1,70 +1,83 @@
 from __future__ import annotations
 
-import re
 from functools import lru_cache
-from typing import Dict, Iterable, List
+from typing import Dict, List
+from urllib.parse import urlparse
 
-from csuchico_graph_pruned import create_csuchico_graph_pruned
+from csuchico_graph_refined import create_csuchico_graph_refined
 
-PERSONA_CONFIG: Dict[str, Dict[str, Iterable[str]]] = {
-    "computer_science": {
-        "keywords": (r"computer[- ]science", r"\bcsci\b", r"software", r"cyber"),
-        "avoid": (r"\bnurs", r"kine"),
-    },
-    "nursing": {
-        "keywords": (r"\bnurs", r"rn-bsn", r"clinical", r"health"),
-        "avoid": (r"\bcsci", r"kine"),
-    },
-    "kinesiology": {
-        "keywords": (r"kinesiology", r"\bkine", r"exercise"),
-        "avoid": (r"\bnurs", r"\bcsci"),
-    },
+PERSONA_PREFIXES: Dict[str, List[str]] = {
+    "computer_science": [
+        "/academics/college/engineering/departments/computer-science",
+        "/academics/majors-programs/computer-science",
+        "/academics/college/engineering/resources",
+    ],
+    "nursing": [
+        "/nurs",
+        "/rcnp",
+        "/academics/majors-programs/nursing",
+    ],
+    "kinesiology": [
+        "/academics/college/communication-education/departments/kinesiology",
+        "/academics/majors-programs/kinesiology",
+    ],
 }
+
+GLOBAL_SUPPORT_PREFIXES = ("/admissions", "/apply", "/cost-aid")
+
+
+def _normalize_path(url: str) -> str:
+    return urlparse(url).path.lower().rstrip('/') or '/'
+
+
+def _matches_prefix(url: str, prefixes: List[str]) -> bool:
+    path = _normalize_path(url)
+    return any(path.startswith(prefix.rstrip('/')) for prefix in prefixes)
 
 
 @lru_cache(maxsize=None)
-def get_persona_context(persona: str, limit: int = 18) -> List[Dict[str, str]]:
-    if persona not in PERSONA_CONFIG:
+def get_refined_graph():
+    return create_csuchico_graph_refined()
+
+
+@lru_cache(maxsize=None)
+def get_persona_context(persona: str, limit: int = 60) -> List[Dict[str, str]]:
+    if persona not in PERSONA_PREFIXES:
         raise ValueError(f"Unknown persona '{persona}'")
 
-    graph = create_csuchico_graph_pruned()
-    config = PERSONA_CONFIG[persona]
+    graph = get_refined_graph()
+    prefixes = PERSONA_PREFIXES[persona]
 
-    def matches(url: str, label: str) -> bool:
-        return any(
-            re.search(pattern, url, re.IGNORECASE) or re.search(pattern, label, re.IGNORECASE)
-            for pattern in config["keywords"]
-        )
-
-    def should_avoid(url: str, label: str) -> bool:
-        return any(
-            re.search(pattern, url, re.IGNORECASE) or re.search(pattern, label, re.IGNORECASE)
-            for pattern in config["avoid"]
-        )
-
-    candidate_nodes = []
+    context = []
     for node, data in graph.nodes(data=True):
-        label = data.get("label", node)
-        if matches(node, label):
-            candidate_nodes.append((node, label))
+        if _matches_prefix(node, prefixes):
+            context.append({
+                "url": node,
+                "label": data.get("label", node),
+            })
 
-    if len(candidate_nodes) < limit:
-        expansion = []
-        for node, label in candidate_nodes:
-            for succ in graph.successors(node):
-                succ_label = graph.nodes[succ].get("label", succ)
-                if not should_avoid(succ, succ_label):
-                    expansion.append((succ, succ_label))
-        candidate_nodes.extend(expansion)
+    support_pages = [
+        {
+            "url": node,
+            "label": data.get("label", node),
+        }
+        for node, data in graph.nodes(data=True)
+        if _matches_prefix(node, list(GLOBAL_SUPPORT_PREFIXES))
+    ]
+    context.extend(sorted(support_pages, key=lambda item: item["label"])[:20])
 
     seen = set()
-    context = []
-    for url, label in candidate_nodes:
-        if url in seen:
+    deduped = []
+    for item in context:
+        key = _normalize_path(item["url"])
+        if key in seen:
             continue
-        seen.add(url)
-        context.append({"url": url, "label": label})
-        if len(context) >= limit:
+        seen.add(key)
+        deduped.append(item)
+        if len(deduped) >= limit:
             break
 
-    return context
+    return deduped
+
+
+PERSONA_CONFIG = PERSONA_PREFIXES
