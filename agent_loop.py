@@ -9,7 +9,7 @@ SRC = ROOT / "src"
 if str(SRC) not in sys.path:
     sys.path.insert(0, str(SRC))
 
-from adaptive_network.loop import main
+from adaptive_network.engine import main
 
 if __name__ == "__main__":
     main()

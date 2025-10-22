@@ -1,0 +1,962 @@
+[
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/admissions/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/first-time/requirements.shtml",
+    "target_label": "Admissions Requirements: First-Time in College Students",
+    "question": "As a computer science student, what are the requirements for Admissions Requirements: First-Time in College Students?",
+    "shortest_hops": 5
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/international/requirements.shtml",
+    "target_label": "International Admissions Requirements",
+    "question": "As a computer science student, what are the requirements for International Admissions Requirements?",
+    "shortest_hops": 4
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/facilities.shtml",
+    "target_label": "Computer Science Student Resources",
+    "question": "As a computer science student, where are the resources for Computer Science Student Resources?",
+    "shortest_hops": 4
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/resources/index.shtml",
+    "target_label": "Student Resources",
+    "question": "As a computer science student, where are the resources for Student Resources?",
+    "shortest_hops": 2
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/international/document-submission.shtml",
+    "target_label": "Submit Supporting Documents",
+    "question": "As a computer science student, where are the resources for Submit Supporting Documents?",
+    "shortest_hops": 4
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/admissions/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/programs/wildcat-way.shtml",
+    "target_label": "Wildcat Way: Supportive Pathways for First-Year",
+    "question": "As a computer science student, where are the resources for Wildcat Way: Supportive Pathways for First-Year?",
+    "shortest_hops": 3
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/events/technical-career-fair.shtml",
+    "target_label": "Technical Career Fair",
+    "question": "As a computer science student, where can I explore Technical Career Fair?",
+    "shortest_hops": 3
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/international/already-applied.shtml",
+    "target_label": "Already Applied: International",
+    "question": "As a computer science student, where can I find information about Already Applied: International?",
+    "shortest_hops": 4
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/admissions/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/events/choose-chico.shtml",
+    "target_label": "Choose Chico",
+    "question": "As a computer science student, where can I find information about Choose Chico?",
+    "shortest_hops": 3
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/majors-programs/computer-engineering-bs.shtml",
+    "target_label": "Computer Engineering BS",
+    "question": "As a computer science student, where can I find information about Computer Engineering BS?",
+    "shortest_hops": 2
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/academics/majors-programs/computer-information-systems-bs.shtml",
+    "target_label": "Computer Information Systems BS",
+    "question": "As a computer science student, where can I find information about Computer Information Systems BS?",
+    "shortest_hops": 2
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/index.shtml",
+    "target_label": "Computer Science Department",
+    "question": "As a computer science student, where can I find information about Computer Science Department?",
+    "shortest_hops": 3
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-ms-online.shtml",
+    "target_label": "Computer Science MS Online",
+    "question": "As a computer science student, where can I find information about Computer Science MS Online?",
+    "shortest_hops": 4
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-ms.shtml",
+    "target_label": "Computer Science MS",
+    "question": "As a computer science student, where can I find information about Computer Science MS?",
+    "shortest_hops": 2
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/admissions/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/resources/celebrate.shtml",
+    "target_label": "Download and Celebrate",
+    "question": "As a computer science student, where can I find information about Download and Celebrate?",
+    "shortest_hops": 3
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/events/index.shtml",
+    "target_label": "ECC Events",
+    "question": "As a computer science student, where can I find information about ECC Events?",
+    "shortest_hops": 2
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/admissions/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/english-proficiency.shtml",
+    "target_label": "English Language Proficiency Requirement",
+    "question": "As a computer science student, where can I find information about English Language Proficiency Requirement?",
+    "shortest_hops": 2
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/admissions/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/resources/forms-publications.shtml",
+    "target_label": "Forms & Publications",
+    "question": "As a computer science student, where can I find information about Forms & Publications?",
+    "shortest_hops": 2
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/resources/forms.shtml",
+    "target_label": "Forms",
+    "question": "As a computer science student, where can I find information about Forms?",
+    "shortest_hops": 3
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/graduate/how-to-apply.shtml",
+    "target_label": "Graduate Student",
+    "question": "As a computer science student, where can I find information about Graduate Student?",
+    "shortest_hops": 3
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/international/how-to-apply-graduate.shtml",
+    "target_label": "International Graduate",
+    "question": "As a computer science student, where can I find information about International Graduate?",
+    "shortest_hops": 3
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/admissions/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/international/how-to-apply-transfer.shtml",
+    "target_label": "International Transfer",
+    "question": "As a computer science student, where can I find information about International Transfer?",
+    "shortest_hops": 4
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/international/cost-of-attendance.shtml",
+    "target_label": "International Tuition and Fees",
+    "question": "As a computer science student, where can I find information about International Tuition and Fees?",
+    "shortest_hops": 4
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/resources/mesa-engineering.shtml",
+    "target_label": "MESA Engineering Program",
+    "question": "As a computer science student, where can I find information about MESA Engineering Program?",
+    "shortest_hops": 2
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/international/accepted.shtml",
+    "target_label": "Once You\u2019re Accepted: International",
+    "question": "As a computer science student, where can I find information about Once You\u2019re Accepted: International?",
+    "shortest_hops": 4
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/admissions/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/first-time/accepted.shtml",
+    "target_label": "Once You\u2019re Accepted",
+    "question": "As a computer science student, where can I find information about Once You\u2019re Accepted?",
+    "shortest_hops": 4
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/admissions/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/programs/pre-college.shtml",
+    "target_label": "Pre-college Students",
+    "question": "As a computer science student, where can I find information about Pre-college Students?",
+    "shortest_hops": 2
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/admissions/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/events/regional-receptions.shtml",
+    "target_label": "Regional Receptions",
+    "question": "As a computer science student, where can I find information about Regional Receptions?",
+    "shortest_hops": 2
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/resources/tutoring.shtml",
+    "target_label": "Tutoring",
+    "question": "As a computer science student, where can I find information about Tutoring?",
+    "shortest_hops": 3
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/admissions/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/resources/undergraduate-deadlines.shtml",
+    "target_label": "Undergraduate Dates and Deadlines",
+    "question": "As a computer science student, where can I find information about Undergraduate Dates and Deadlines?",
+    "shortest_hops": 3
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/admissions/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/programs/western-undergrad-exchange.shtml",
+    "target_label": "Western Undergraduate Exchange",
+    "question": "As a computer science student, where can I find information about Western Undergraduate Exchange?",
+    "shortest_hops": 3
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/admissions/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/programs/wildcat-guarantee.shtml",
+    "target_label": "Wildcat Guarantee",
+    "question": "As a computer science student, where can I find information about Wildcat Guarantee?",
+    "shortest_hops": 3
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/admissions/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/events/wildcat-preview.shtml",
+    "target_label": "Wildcat Preview",
+    "question": "As a computer science student, where can I find information about Wildcat Preview?",
+    "shortest_hops": 3
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/resources/advisor-directory.shtml",
+    "target_label": "Faculty Advisors",
+    "question": "As a computer science student, where can I get advising details for Faculty Advisors?",
+    "shortest_hops": 3
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/resources/mandatory-advising.shtml",
+    "target_label": "Mandatory Advising",
+    "question": "As a computer science student, where can I get advising details for Mandatory Advising?",
+    "shortest_hops": 2
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/resources/scholarships-awards.shtml",
+    "target_label": "Scholarships and Awards",
+    "question": "As a computer science student, where can I learn about Scholarships and Awards?",
+    "shortest_hops": 2
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/faculty-staff.shtml",
+    "target_label": "Faculty and Staff",
+    "question": "As a computer science student, where can I meet the Faculty and Staff?",
+    "shortest_hops": 4
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/cyber-center.shtml",
+    "target_label": "Cyber Center",
+    "question": "As a computer science student, where can I read about the Cyber Center?",
+    "shortest_hops": 4
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/resources/ecc-student-success-center.shtml",
+    "target_label": "ECC Student Success Center",
+    "question": "As a computer science student, where can I read about the ECC Student Success Center?",
+    "shortest_hops": 3
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/resources/labs.shtml",
+    "target_label": "Facilities and Labs",
+    "question": "As a computer science student, where can I read about the Facilities and Labs?",
+    "shortest_hops": 2
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/international/requirements.shtml",
+    "target_label": "International Admissions Requirements",
+    "question": "As a kinesiology student, what are the requirements for International Admissions Requirements?",
+    "shortest_hops": 3
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/international/document-submission.shtml",
+    "target_label": "Submit Supporting Documents",
+    "question": "As a kinesiology student, where are the resources for Submit Supporting Documents?",
+    "shortest_hops": 3
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/admissions/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/programs/wildcat-way.shtml",
+    "target_label": "Wildcat Way: Supportive Pathways for First-Year",
+    "question": "As a kinesiology student, where are the resources for Wildcat Way: Supportive Pathways for First-Year?",
+    "shortest_hops": 3
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/ape-added-authorization.shtml",
+    "target_label": "APE Added Authorization",
+    "question": "As a kinesiology student, where can I find information about APE Added Authorization?",
+    "shortest_hops": 2
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/recsports/about.shtml",
+    "target_label": "About Us \u2013 Recreational Sports",
+    "question": "As a kinesiology student, where can I find information about About Us \u2013 Recreational Sports?",
+    "shortest_hops": 4
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/international/already-applied.shtml",
+    "target_label": "Already Applied: International",
+    "question": "As a kinesiology student, where can I find information about Already Applied: International?",
+    "shortest_hops": 3
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/admissions/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/events/choose-chico.shtml",
+    "target_label": "Choose Chico",
+    "question": "As a kinesiology student, where can I find information about Choose Chico?",
+    "shortest_hops": 3
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/kinesiology-ba.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/community-service-programs.shtml",
+    "target_label": "Community and Service Programs",
+    "question": "As a kinesiology student, where can I find information about Community and Service Programs?",
+    "shortest_hops": 2
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/recsports/clubs/competitive.shtml",
+    "target_label": "Competitive Sport Clubs \u2013 Recreational Sports",
+    "question": "As a kinesiology student, where can I find information about Competitive Sport Clubs \u2013 Recreational Sports?",
+    "shortest_hops": 4
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/admissions/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/resources/celebrate.shtml",
+    "target_label": "Download and Celebrate",
+    "question": "As a kinesiology student, where can I find information about Download and Celebrate?",
+    "shortest_hops": 3
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/admissions/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/english-proficiency.shtml",
+    "target_label": "English Language Proficiency Requirement",
+    "question": "As a kinesiology student, where can I find information about English Language Proficiency Requirement?",
+    "shortest_hops": 2
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/kinesiology-ba.shtml",
+    "target_url": "https://www.csuchico.edu/academics/majors-programs/exercise-physiology-bs.shtml",
+    "target_label": "Exercise Physiology BS",
+    "question": "As a kinesiology student, where can I find information about Exercise Physiology BS?",
+    "shortest_hops": 2
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/kinesiology-ba.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/facilities.shtml",
+    "target_label": "Facilities and Technology",
+    "question": "As a kinesiology student, where can I find information about Facilities and Technology?",
+    "shortest_hops": 2
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/admissions/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/resources/forms-publications.shtml",
+    "target_label": "Forms & Publications",
+    "question": "As a kinesiology student, where can I find information about Forms & Publications?",
+    "shortest_hops": 2
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/recsports/intramurals/faq.shtml",
+    "target_label": "Frequently Asked Questions \u2013 Recreational Sports",
+    "question": "As a kinesiology student, where can I find information about Frequently Asked Questions \u2013 Recreational Sports?",
+    "shortest_hops": 4
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/graduate/how-to-apply.shtml",
+    "target_label": "Graduate Student",
+    "question": "As a kinesiology student, where can I find information about Graduate Student?",
+    "shortest_hops": 2
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/recsports/clubs/new.shtml",
+    "target_label": "How to Start a New Club \u2013 Recreational Sports",
+    "question": "As a kinesiology student, where can I find information about How to Start a New Club \u2013 Recreational Sports?",
+    "shortest_hops": 3
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/international/documentation.shtml",
+    "target_label": "International Admission Documents and Standards",
+    "question": "As a kinesiology student, where can I find information about International Admission Documents and Standards?",
+    "shortest_hops": 4
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/international/how-to-apply-graduate.shtml",
+    "target_label": "International Graduate",
+    "question": "As a kinesiology student, where can I find information about International Graduate?",
+    "shortest_hops": 2
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/international/how-to-apply-transfer.shtml",
+    "target_label": "International Transfer",
+    "question": "As a kinesiology student, where can I find information about International Transfer?",
+    "shortest_hops": 3
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/international/cost-of-attendance.shtml",
+    "target_label": "International Tuition and Fees",
+    "question": "As a kinesiology student, where can I find information about International Tuition and Fees?",
+    "shortest_hops": 3
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/recsports/intramurals/index.shtml",
+    "target_label": "Intramural Sports \u2013 Recreational Sports",
+    "question": "As a kinesiology student, where can I find information about Intramural Sports \u2013 Recreational Sports?",
+    "shortest_hops": 4
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/recsports/clubs/join.shtml",
+    "target_label": "Join a Team \u2013 Recreational Sports",
+    "question": "As a kinesiology student, where can I find information about Join a Team \u2013 Recreational Sports?",
+    "shortest_hops": 4
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/majors-programs/kinesiology-ba.shtml",
+    "target_label": "Kinesiology BA",
+    "question": "As a kinesiology student, where can I find information about Kinesiology BA?",
+    "shortest_hops": 2
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/cost-aid/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_label": "Kinesiology Department",
+    "question": "As a kinesiology student, where can I find information about Kinesiology Department?",
+    "shortest_hops": 4
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/kinesiology-ba.shtml",
+    "target_url": "https://www.csuchico.edu/academics/majors-programs/kinesiology-ms.shtml",
+    "target_label": "Kinesiology MS",
+    "question": "As a kinesiology student, where can I find information about Kinesiology MS?",
+    "shortest_hops": 2
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/recsports/clubs/national-championships.shtml",
+    "target_label": "National Championships \u2013 Recreational Sports",
+    "question": "As a kinesiology student, where can I find information about National Championships \u2013 Recreational Sports?",
+    "shortest_hops": 4
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/international/accepted.shtml",
+    "target_label": "Once You\u2019re Accepted: International",
+    "question": "As a kinesiology student, where can I find information about Once You\u2019re Accepted: International?",
+    "shortest_hops": 3
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/admissions/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/first-time/accepted.shtml",
+    "target_label": "Once You\u2019re Accepted",
+    "question": "As a kinesiology student, where can I find information about Once You\u2019re Accepted?",
+    "shortest_hops": 4
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/admissions/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/programs/pre-college.shtml",
+    "target_label": "Pre-college Students",
+    "question": "As a kinesiology student, where can I find information about Pre-college Students?",
+    "shortest_hops": 2
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/recsports/clubs/recreational.shtml",
+    "target_label": "Recreational Sport Clubs \u2013 Recreational Sports",
+    "question": "As a kinesiology student, where can I find information about Recreational Sport Clubs \u2013 Recreational Sports?",
+    "shortest_hops": 4
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/recsports/clubs/athletictrainer.shtml",
+    "target_label": "Recreational Sports - Athletic Training \u2013 Recreational Sports",
+    "question": "As a kinesiology student, where can I find information about Recreational Sports - Athletic Training \u2013 Recreational Sports?",
+    "shortest_hops": 4
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/cost-aid/index.shtml",
+    "target_url": "https://www.csuchico.edu/recsports/index.shtml",
+    "target_label": "Recreational Sports",
+    "question": "As a kinesiology student, where can I find information about Recreational Sports?",
+    "shortest_hops": 4
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/admissions/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/events/regional-receptions.shtml",
+    "target_label": "Regional Receptions",
+    "question": "As a kinesiology student, where can I find information about Regional Receptions?",
+    "shortest_hops": 2
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/kinesiology-ba.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/research.shtml",
+    "target_label": "Research and Scholarly Work",
+    "question": "As a kinesiology student, where can I find information about Research and Scholarly Work?",
+    "shortest_hops": 2
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/admissions/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/resources/undergraduate-deadlines.shtml",
+    "target_label": "Undergraduate Dates and Deadlines",
+    "question": "As a kinesiology student, where can I find information about Undergraduate Dates and Deadlines?",
+    "shortest_hops": 3
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/admissions/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/programs/western-undergrad-exchange.shtml",
+    "target_label": "Western Undergraduate Exchange",
+    "question": "As a kinesiology student, where can I find information about Western Undergraduate Exchange?",
+    "shortest_hops": 3
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/admissions/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/programs/wildcat-guarantee.shtml",
+    "target_label": "Wildcat Guarantee",
+    "question": "As a kinesiology student, where can I find information about Wildcat Guarantee?",
+    "shortest_hops": 3
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/admissions/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/events/wildcat-preview.shtml",
+    "target_label": "Wildcat Preview",
+    "question": "As a kinesiology student, where can I find information about Wildcat Preview?",
+    "shortest_hops": 3
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/kinesiology-ba.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/faculty-staff.shtml",
+    "target_label": "Faculty and Staff",
+    "question": "As a kinesiology student, where can I meet the Faculty and Staff?",
+    "shortest_hops": 2
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/rcnp/apply.shtml",
+    "target_label": "Applications & Information \u2013 Rural California Nursing Preceptorships",
+    "question": "As a nursing student, how do I apply for Applications & Information \u2013 Rural California Nursing Preceptorships?",
+    "shortest_hops": 2
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nurs/programs/rn-bsn/rn-bn-prospective-students.shtml",
+    "target_label": "Apply to the RN-BSN Program \u2013 School of Nursing",
+    "question": "As a nursing student, how do I apply for Apply to the RN-BSN Program \u2013 School of Nursing?",
+    "shortest_hops": 3
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/admissions/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/first-time/requirements.shtml",
+    "target_label": "Admissions Requirements: First-Time in College Students",
+    "question": "As a nursing student, what are the requirements for Admissions Requirements: First-Time in College Students?",
+    "shortest_hops": 5
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nurs/programs/rn-bsn/rn-bsn-prerequisites.shtml",
+    "target_label": "RN-BSN Prerequisites \u2013 School of Nursing",
+    "question": "As a nursing student, what are the requirements for RN-BSN Prerequisites \u2013 School of Nursing?",
+    "shortest_hops": 4
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/admissions/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/international/document-submission.shtml",
+    "target_label": "Submit Supporting Documents",
+    "question": "As a nursing student, where are the resources for Submit Supporting Documents?",
+    "shortest_hops": 5
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/admissions/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/programs/wildcat-way.shtml",
+    "target_label": "Wildcat Way: Supportive Pathways for First-Year",
+    "question": "As a nursing student, where are the resources for Wildcat Way: Supportive Pathways for First-Year?",
+    "shortest_hops": 3
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/rcnp/career-prep/index.shtml",
+    "target_label": "Career Prep \u2013 Rural California Nursing Preceptorships",
+    "question": "As a nursing student, where can I explore Career Prep \u2013 Rural California Nursing Preceptorships?",
+    "shortest_hops": 2
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nurs/about/index.shtml",
+    "target_label": "About the School of Nursing \u2013 School of Nursing",
+    "question": "As a nursing student, where can I find information about About the School of Nursing \u2013 School of Nursing?",
+    "shortest_hops": 3
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/admissions/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/international/already-applied.shtml",
+    "target_label": "Already Applied: International",
+    "question": "As a nursing student, where can I find information about Already Applied: International?",
+    "shortest_hops": 6
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/admissions/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/first-time/already-applied.shtml",
+    "target_label": "Already Applied",
+    "question": "As a nursing student, where can I find information about Already Applied?",
+    "shortest_hops": 5
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/admissions/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/events/choose-chico.shtml",
+    "target_label": "Choose Chico",
+    "question": "As a nursing student, where can I find information about Choose Chico?",
+    "shortest_hops": 3
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/rcnp/career-prep/cover-letters.shtml",
+    "target_label": "Cover Letters \u2013 Rural California Nursing Preceptorships",
+    "question": "As a nursing student, where can I find information about Cover Letters \u2013 Rural California Nursing Preceptorships?",
+    "shortest_hops": 2
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/rcnp/current-participants.shtml",
+    "target_label": "Current Participants \u2013 Rural California Nursing Preceptorships",
+    "question": "As a nursing student, where can I find information about Current Participants \u2013 Rural California Nursing Preceptorships?",
+    "shortest_hops": 2
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/admissions/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/resources/celebrate.shtml",
+    "target_label": "Download and Celebrate",
+    "question": "As a nursing student, where can I find information about Download and Celebrate?",
+    "shortest_hops": 3
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/rcnp/eligibility.shtml",
+    "target_label": "Eligibility for The Program \u2013 Rural California Nursing Preceptorships",
+    "question": "As a nursing student, where can I find information about Eligibility for The Program \u2013 Rural California Nursing Preceptorships?",
+    "shortest_hops": 2
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/admissions/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/english-proficiency.shtml",
+    "target_label": "English Language Proficiency Requirement",
+    "question": "As a nursing student, where can I find information about English Language Proficiency Requirement?",
+    "shortest_hops": 2
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nurs/programs/rn-bsn/rn-bsn-current-students.shtml",
+    "target_label": "Enrolled RN-BSN Students \u2013 School of Nursing",
+    "question": "As a nursing student, where can I find information about Enrolled RN-BSN Students \u2013 School of Nursing?",
+    "shortest_hops": 3
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nurs/programs/bsn/enrolled-students.shtml",
+    "target_label": "Enrolled Students \u2013 School of Nursing",
+    "question": "As a nursing student, where can I find information about Enrolled Students \u2013 School of Nursing?",
+    "shortest_hops": 2
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nurs/programs/bsn/ex-military.shtml",
+    "target_label": "Ex-Military Students \u2013 School of Nursing",
+    "question": "As a nursing student, where can I find information about Ex-Military Students \u2013 School of Nursing?",
+    "shortest_hops": 3
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/admissions/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/first-time/how-to-apply.shtml",
+    "target_label": "First-Time in College",
+    "question": "As a nursing student, where can I find information about First-Time in College?",
+    "shortest_hops": 5
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/admissions/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/resources/forms-publications.shtml",
+    "target_label": "Forms & Publications",
+    "question": "As a nursing student, where can I find information about Forms & Publications?",
+    "shortest_hops": 2
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/rcnp/faq.shtml",
+    "target_label": "Frequently Asked Questions \u2013 Rural California Nursing Preceptorships",
+    "question": "As a nursing student, where can I find information about Frequently Asked Questions \u2013 Rural California Nursing Preceptorships?",
+    "shortest_hops": 2
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/admissions/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/international/documentation.shtml",
+    "target_label": "International Admission Documents and Standards",
+    "question": "As a nursing student, where can I find information about International Admission Documents and Standards?",
+    "shortest_hops": 5
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/admissions/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/international/how-to-apply-transfer.shtml",
+    "target_label": "International Transfer",
+    "question": "As a nursing student, where can I find information about International Transfer?",
+    "shortest_hops": 4
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/rcnp/career-prep/interviews.shtml",
+    "target_label": "Interviews \u2013 Rural California Nursing Preceptorships",
+    "question": "As a nursing student, where can I find information about Interviews \u2013 Rural California Nursing Preceptorships?",
+    "shortest_hops": 2
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/rcnp/locations.shtml",
+    "target_label": "Locations \u2013 Rural California Nursing Preceptorships",
+    "question": "As a nursing student, where can I find information about Locations \u2013 Rural California Nursing Preceptorships?",
+    "shortest_hops": 2
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/admissions/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/first-time/accepted.shtml",
+    "target_label": "Once You\u2019re Accepted",
+    "question": "As a nursing student, where can I find information about Once You\u2019re Accepted?",
+    "shortest_hops": 4
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nurs/programs/bsn/advising.shtml",
+    "target_label": "Pre-Nursing & Admissions Information \u2013 School of Nursing",
+    "question": "As a nursing student, where can I find information about Pre-Nursing & Admissions Information \u2013 School of Nursing?",
+    "shortest_hops": 2
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/admissions/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/programs/pre-college.shtml",
+    "target_label": "Pre-college Students",
+    "question": "As a nursing student, where can I find information about Pre-college Students?",
+    "shortest_hops": 2
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nurs/programs/rn-bsn/rn-bn-info-meetings.shtml",
+    "target_label": "RN-BSN Informational Meetings \u2013 School of Nursing",
+    "question": "As a nursing student, where can I find information about RN-BSN Informational Meetings \u2013 School of Nursing?",
+    "shortest_hops": 3
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nurs/programs/rn-bsn/index.shtml",
+    "target_label": "RN-BSN Program \u2013 School of Nursing",
+    "question": "As a nursing student, where can I find information about RN-BSN Program \u2013 School of Nursing?",
+    "shortest_hops": 2
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/admissions/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/events/regional-receptions.shtml",
+    "target_label": "Regional Receptions",
+    "question": "As a nursing student, where can I find information about Regional Receptions?",
+    "shortest_hops": 2
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/rcnp/career-prep/resumes.shtml",
+    "target_label": "Resumes \u2013 Rural California Nursing Preceptorships",
+    "question": "As a nursing student, where can I find information about Resumes \u2013 Rural California Nursing Preceptorships?",
+    "shortest_hops": 2
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/admissions/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/resources/undergraduate-deadlines.shtml",
+    "target_label": "Undergraduate Dates and Deadlines",
+    "question": "As a nursing student, where can I find information about Undergraduate Dates and Deadlines?",
+    "shortest_hops": 3
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/admissions/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/programs/western-undergrad-exchange.shtml",
+    "target_label": "Western Undergraduate Exchange",
+    "question": "As a nursing student, where can I find information about Western Undergraduate Exchange?",
+    "shortest_hops": 3
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/admissions/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/programs/wildcat-guarantee.shtml",
+    "target_label": "Wildcat Guarantee",
+    "question": "As a nursing student, where can I find information about Wildcat Guarantee?",
+    "shortest_hops": 3
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/admissions/index.shtml",
+    "target_url": "https://www.csuchico.edu/admissions/events/wildcat-preview.shtml",
+    "target_label": "Wildcat Preview",
+    "question": "As a nursing student, where can I find information about Wildcat Preview?",
+    "shortest_hops": 3
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nurs/programs/rn-bsn/rn-bsn-advising.shtml",
+    "target_label": "RN-BSN Program Advising \u2013 School of Nursing",
+    "question": "As a nursing student, where can I get advising details for RN-BSN Program Advising \u2013 School of Nursing?",
+    "shortest_hops": 3
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nurs/student-resources/scholarships.shtml",
+    "target_label": "Scholarships \u2013 School of Nursing",
+    "question": "As a nursing student, where can I learn about Scholarships \u2013 School of Nursing?",
+    "shortest_hops": 2
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nurs/programs/rn-bsn/rn-bsn-contact-us.shtml",
+    "target_label": "RN-BSN Faculty & Staff \u2013 School of Nursing",
+    "question": "As a nursing student, where can I meet the RN-BSN Faculty & Staff \u2013 School of Nursing?",
+    "shortest_hops": 3
+  }
+]

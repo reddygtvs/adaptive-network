@@ -9,6 +9,7 @@ agent_history/
 *.log
 scrape_output*.log
 arxiv_search.html
+.venv/
 
 # Local Claude configuration
 .claude
@@ -17,3 +18,4 @@ arxiv_search.html
 
 # Misc
 .DS_Store
+DEV_README.md

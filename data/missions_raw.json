@@ -1,0 +1,2054 @@
+[
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/departments/mechanical-mechatronic-engineering-manufacturing/capstone-design.shtml",
+    "target_label": "Capstone Design Program \u2014 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/departments/mechanical-mechatronic-engineering-manufacturing/faculty-staff.shtml",
+    "target_label": "Faculty and Staff \u2014 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/about/accreditation/abet-eac.shtml",
+    "target_label": "Engineering Accreditation Commission - ABET Accreditation \u2014 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/about/accreditation/atmae.shtml",
+    "target_label": "Association of Technology, Management, and Applied Engineering (ATMAE) Board of Accreditation \u2014 Chic"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/departments/concrete-industry/scholarships.shtml",
+    "target_label": "Concrete Industry Management Scholarship Program \u2014 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/departments/construction-management/asc-student-competion.shtml",
+    "target_label": "ASC Student Competition \u2014 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/faculty-staff.shtml",
+    "target_label": "Faculty and Staff \u2014 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/facilities.shtml",
+    "target_label": "Computer Science Student Resources \u2014 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/cyber-center.shtml",
+    "target_label": "Cyber Center \u2014 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/about/accreditation/abet-cac.shtml",
+    "target_label": "Computer Accreditation Commission - ABET Accreditation \u2014 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/index.shtml",
+    "target_url": "https://www.csuchico.edu/careers/students-and-alumni/get-a-job-or-internship/teacher-placement/app-materials/self-managed-file-ed-join.shtml",
+    "target_label": "Self-managed File/Ed-Join \u2013 Career Center & Student Employment \u2013 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/index.shtml",
+    "target_url": "https://www.csuchico.edu/careers/students-and-alumni/get-a-job-or-internship/teacher-placement/app-materials/resume-preparation-for-teachers.shtml",
+    "target_label": "Resume Preparation for Teachers \u2013 Career Center & Student Employment \u2013 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/index.shtml",
+    "target_url": "https://www.csuchico.edu/careers/students-and-alumni/get-a-job-or-internship/teacher-placement/app-materials/cover-letters.shtml",
+    "target_label": "Cover Letters \u2013 Career Center & Student Employment \u2013 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/index.shtml",
+    "target_url": "https://www.csuchico.edu/careers/students-and-alumni/get-a-job-or-internship/teacher-placement/app-materials/recommendation-letters.shtml",
+    "target_label": "Recommendation Letters \u2013 Career Center & Student Employment \u2013 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/departments/civil-engineering/faculty-staff.shtml",
+    "target_label": "Faculty and Staff \u2014 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/departments/civil-engineering/research.shtml",
+    "target_label": "Research \u2014 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/departments/civil-engineering/internship-program.shtml",
+    "target_label": "Internship Program for Civil Engineering Majors \u2014 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/departments/civil-engineering/annual-sponsorpship-program.shtml",
+    "target_label": "Annual Sponsorship Program \u2014 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/departments/concrete-industry/faculty-staff.shtml",
+    "target_label": "Faculty and Staff \u2014 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/departments/concrete-industry/internships.shtml",
+    "target_label": "Internship Program \u2014 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/departments/concrete-industry/industry-partnerships.shtml",
+    "target_label": "Industry Partnerships \u2014 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/departments/construction-management/faculty-staff.shtml",
+    "target_label": "Faculty and Staff \u2014 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/departments/construction-management/recruiting-companies.shtml",
+    "target_label": "Recruiting Students \u2014 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/about/accreditation/acce-accreditation.shtml",
+    "target_label": "Construction Management ACCE Accreditation \u2014 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/departments/electrical-computer-engineering/faculty-staff.shtml",
+    "target_label": "Faculty and Staff \u2014 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/index.shtml",
+    "target_url": "https://www.csuchico.edu/careers/students-and-alumni/get-a-job-or-internship/teacher-placement/app-materials/teacher-cover-letter-1.shtml",
+    "target_label": "Multiple Subjects Cover Letter 1 \u2013 Career Center & Student Employment \u2013 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/index.shtml",
+    "target_url": "https://www.csuchico.edu/careers/students-and-alumni/get-a-job-or-internship/teacher-placement/app-materials/teacher-cover-letter-2.shtml",
+    "target_label": "Multiple Subjects Cover Letter 2 \u2013 Career Center & Student Employment \u2013 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/careers/students-and-alumni/get-a-job-or-internship/get-job-internship.shtml",
+    "target_label": "Search for Jobs via Handshake \u2013 Career Center & Student Employment \u2013 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/resources/ecc-student-success-center.shtml",
+    "target_label": "ECC Student Success Center \u2014 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/resources/advisor-directory.shtml",
+    "target_label": "Faculty Advisors \u2014 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/careers/students-and-alumni/investigate-majors-and-careers/career-assessment.shtml",
+    "target_label": "Career Assessment \u2013 Career Center & Student Employment \u2013 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/careers/students-and-alumni/investigate-majors-and-careers/career-descriptions.shtml",
+    "target_label": "Career Descriptions \u2013 Career Center & Student Employment \u2013 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/careers/students-and-alumni/get-a-job-or-internship/jobcat-search-jobs-and-internships.shtml",
+    "target_label": "Search Jobs and Internships \u2013 Career Center & Student Employment \u2013 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/careers/students-and-alumni/get-a-job-or-internship/internships.shtml",
+    "target_label": "Internships \u2013 Career Center & Student Employment \u2013 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/careers/students-and-alumni/get-a-job-or-internship/teacher-placement/index.shtml",
+    "target_label": "Teacher Placement \u2013 Career Center & Student Employment \u2013 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/careers/students-and-alumni/get-a-job-or-internship/avoiding-scams-fraudulent-jobs.shtml",
+    "target_label": "Fraudulent Job Postings \u2013 Career Center & Student Employment \u2013 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/careers/students-and-alumni/job-search-tools/networking.shtml",
+    "target_label": "Networking \u2013 Career Center & Student Employment \u2013 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/careers/students-and-alumni/job-search-tools/interviewing.shtml",
+    "target_label": "Interviewing \u2013 Career Center & Student Employment \u2013 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/careers/students-and-alumni/job-search-tools/salary-negotiation.shtml",
+    "target_label": "Salary Negotiation \u2013 Career Center & Student Employment \u2013 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/careers/students-and-alumni/job-search-tools/salary-statistics.shtml",
+    "target_label": "Salary Statistics \u2013 Career Center & Student Employment \u2013 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/careers/students-and-alumni/job-search-tools/sample-questions.shtml",
+    "target_label": "Sample Interview Questions \u2013 Career Center & Student Employment \u2013 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/departments/index.shtml",
+    "target_label": "Academic Departments \u2014 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/resources/index.shtml",
+    "target_label": "Student Resources \u2014 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/events/index.shtml",
+    "target_label": "ECC Events \u2014 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/about/index.shtml",
+    "target_label": "About the College \u2014 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/support-college.shtml",
+    "target_label": "Make a Donation to the College of ECC \u2014 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/about/contact.shtml",
+    "target_label": "Contact Information \u2014 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/departments/mechanical-mechatronic-engineering-manufacturing/index.shtml",
+    "target_label": "Mechanical and Mechatronic Engineering and Advanced Manufacturing Department \u2014 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/resources/mesa-engineering.shtml",
+    "target_label": "MESA Engineering Program \u2014 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/resources/forms.shtml",
+    "target_label": "Forms \u2014 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/resources/scholarships-awards.shtml",
+    "target_label": "Scholarships and Awards \u2014 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/resources/tutoring.shtml",
+    "target_label": "Tutoring \u2014 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/resources/mandatory-advising.shtml",
+    "target_label": "Mandatory Advising \u2014 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/resources/labs.shtml",
+    "target_label": "Facilities and Labs \u2014 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/index.shtml",
+    "target_label": "Computer Science Department \u2014 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/careers/students-and-alumni/get-a-job-or-internship/teacher-placement/services-policies-registration.shtml",
+    "target_label": "Services/Policies/Registration \u2013 Career Center & Student Employment \u2013 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/careers/students-and-alumni/get-a-job-or-internship/teacher-placement/application-materials.shtml",
+    "target_label": "Application Materials \u2013 Career Center & Student Employment \u2013 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/careers/students-and-alumni/get-a-job-or-internship/teacher-placement/finding-teaching-jobs.shtml",
+    "target_label": "Finding Teaching Jobs \u2013 Career Center & Student Employment \u2013 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/careers/students-and-alumni/get-a-job-or-internship/teacher-placement/teacher-hiring-fair.shtml",
+    "target_label": "Education Hiring Fair \u2013 Career Center & Student Employment \u2013 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/careers/students-and-alumni/get-a-job-or-internship/teacher-placement/interviews.shtml",
+    "target_label": "Interviews \u2013 Career Center & Student Employment \u2013 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/careers/students-and-alumni/job-search-tools/thank-you-letters.shtml",
+    "target_label": "Thank You Letters \u2013 Career Center & Student Employment \u2013 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/careers/students-and-alumni/job-search-tools/etiquette-guidelines.shtml",
+    "target_label": "Meal Interview Etiquette \u2013 Career Center & Student Employment \u2013 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/careers/students-and-alumni/get-a-job-or-internship/job-search-videos/inside-the-mind-of-the-interviewer.shtml",
+    "target_label": "Inside the Interviewer's Mind \u2013 Career Center & Student Employment \u2013 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/careers/students-and-alumni/graduate-school/grad-school-programs.shtml",
+    "target_label": "Participating External Graduate & Professional School Programs \u2013 Career Center & Student Employment"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/careers/students-and-alumni/job-search-tools/curriculum-vitae.shtml",
+    "target_label": "Writing a Curriculum Vitae \u2013 Career Center & Student Employment \u2013 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/departments/civil-engineering/index.shtml",
+    "target_label": "Civil Engineering Department \u2014 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/departments/concrete-industry/index.shtml",
+    "target_label": "Concrete Industry Management \u2014 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/departments/construction-management/index.shtml",
+    "target_label": "Construction Management Department \u2014 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/departments/electrical-computer-engineering/index.shtml",
+    "target_label": "Electrical and Computer Engineering Department \u2014 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/careers/students-and-alumni/get-a-job-or-internship/job-search-videos/preparing-for-a-career-fair.shtml",
+    "target_label": "Preparing for a Career Fair \u2013 Career Center & Student Employment \u2013 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/about/centers.shtml",
+    "target_label": "Research Centers \u2014 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/about/laptop-requirements.shtml",
+    "target_label": "ECC Programs Laptop Requirement \u2014 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/about/accreditation/index.shtml",
+    "target_label": "Program Information and Accreditation \u2014 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/engineering/events/technical-career-fair.shtml",
+    "target_label": "Technical Career Fair \u2014 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/careers/students-and-alumni/job-search-tools/cover-letters.shtml",
+    "target_label": "Cover Letters \u2013 Career Center & Student Employment \u2013 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/careers/students-and-alumni/job-search-tools/verb-examples.shtml",
+    "target_label": "Skill Verb Examples \u2013 Career Center & Student Employment \u2013 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/careers/students-and-alumni/job-search-tools/other-docs.shtml",
+    "target_label": "Other Documents \u2013 Career Center & Student Employment \u2013 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/careers/students-and-alumni/get-a-job-or-internship/job-search-videos/five-student-resume-no-nos.shtml",
+    "target_label": "Student Resume No-no's \u2013 Career Center & Student Employment \u2013 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/careers/students-and-alumni/job-search-tools/cv-tips.shtml",
+    "target_label": "CV Tips \u2013 Career Center & Student Employment \u2013 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/careers/students-and-alumni/job-search-tools/evaluating-cv.shtml",
+    "target_label": "Evaluating your CV \u2013 Career Center & Student Employment \u2013 Chico State"
+  },
+  {
+    "persona": "computer_science",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+    "target_url": "https://www.csuchico.edu/careers/students-and-alumni/investigate-majors-and-careers/what-can-i-do/multicultural-and-gender-studies.shtml",
+    "target_label": "Multicultural and Gender Studies \u2013 Career Center & Student Employment \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/cost-aid/financial-aid-scholarships.shtml",
+    "target_label": "Financial Aid and Scholarships \u2014 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/cost-aid/calculator.shtml",
+    "target_label": "Calculate Your Costs \u2014 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/cost-aid/cost-of-attendance.shtml",
+    "target_label": "Cost of Attendance \u2014 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/cost-aid/aid-steps.shtml",
+    "target_label": "Steps to Financial Aid \u2014 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/resources/student-success-lab.shtml",
+    "target_label": "NSC Student Success Lab & Advising \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/resources/nsci-dept-advising-directory.shtml",
+    "target_label": "The College of Natural Sciences Advising Directory \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/majors-programs/nursing-rn-bsn-online.shtml",
+    "target_label": "RN BSN Online \u2014 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/sa/student-affairs-departments.shtml",
+    "target_label": "Student Affairs Departments \u2013 Division of Student Affairs \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/about/index.shtml",
+    "target_label": "Vision & Mission  \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/about/deans-office/index.shtml",
+    "target_label": "Office of the Dean \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/about/history.shtml",
+    "target_label": "History of the College \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/about/accomplishments/index.shtml",
+    "target_label": "2021\u20132022 \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/about/distinguished-emeriti/index.shtml",
+    "target_label": "Distinguished Emeriti \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/about/new-faculty/index.shtml",
+    "target_label": "New Faculty \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/choose-chico/choose-nsc.shtml",
+    "target_label": "Choose NSC for 2023 \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/resources/english-scholarship/index.shtml",
+    "target_label": "Floyd L. English Natural Sciences Scholarship \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/resources/orgs.shtml",
+    "target_label": "Student Clubs & Organizations \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/announce/lantis-endowed-university-chair.shtml",
+    "target_label": "Lantis Endowed University Chair \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/announce/lt.-rawlins-merit-scholarships.shtml",
+    "target_label": "Lt. Rawlins Merit Scholarship \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/announce/student-leader.shtml",
+    "target_label": "Outstanding Student Leader Award \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/announce/scholarship-english.shtml",
+    "target_label": "Floyd L. English Natural Sciences Scholarship \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/announce/staff-award.shtml",
+    "target_label": "Outstanding Staff Award \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/announce/distinguished-alumni.shtml",
+    "target_label": "Distinguished Alumni \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/event/scholarship-ceremony.shtml",
+    "target_label": "Scholarship Ceremony  \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/event/poster.shtml",
+    "target_label": "College Poster Session \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/event/commencement.shtml",
+    "target_label": "Commencement Ceremonies \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/alumni-friends/index.shtml",
+    "target_label": "Alumni & Friends \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/alumni-friends/distinguished-alumni/index.shtml",
+    "target_label": "Distinguished Alumni \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/support-college/gift.shtml",
+    "target_label": "Your Gift Makes A Difference  \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/support-college/ways-to-support.shtml",
+    "target_label": "Ways to Support the College  \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/support-college/tower-society.shtml",
+    "target_label": "Tower Society \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/support-college/development-office.shtml",
+    "target_label": "Development Office \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/google-translate.shtml",
+    "target_label": "How To Translate This Page / C\u00f3mo Traducir Esta P\u00e1gina \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/sites.shtml",
+    "target_label": "Museums, Centers & Field Sites \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/program-portfolio/index.shtml",
+    "target_label": "College of Natural Sciences \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nurs/programs/bsn/advising.shtml",
+    "target_label": "Pre-Nursing & Admissions Information \u2013 School of Nursing \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nurs/programs/rn-bsn/index.shtml",
+    "target_label": "RN-BSN Program \u2013 School of Nursing \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/resources/index.shtml",
+    "target_label": "Student Resources \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/people/staff/jaime-nelson-advising-person-page.shtml",
+    "target_label": "Jaime Murphy \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/people/staff/jr.evans-person-page.shtml",
+    "target_label": "Jr.Evans \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/people/staff/gwyn-szoboszlay.shtml",
+    "target_label": "Gwyn Szoboszlay \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/people/staff/jackson-miller.shtml",
+    "target_label": "Jackson Miller \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/majors-programs/nursing-bs.shtml",
+    "target_label": "Nursing BS \u2014 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nurs/student-resources/scholarships.shtml",
+    "target_label": "Scholarships \u2013 School of Nursing \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/announce/past-student-leaders.shtml",
+    "target_label": "Previous Outstanding Student Leaders  \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/alumni-friends/distinguished-alumni/1994.shtml",
+    "target_label": "1994: Floyd L. English \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/resources/english-scholarship/past-recipients.shtml",
+    "target_label": "Floyd L. English Natural Sciences Scholarship Past Recipients \u2013 College of Natural Sciences \u2013 Chico"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/event/index.shtml",
+    "target_label": "All Events \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/announce/past-rawlins-award.shtml",
+    "target_label": "Previous Rawlins Merit Scholarship Recipients \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/announce/index.shtml",
+    "target_label": "All Announcements \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/people/staff/david-hassenzahl-person-page.shtml",
+    "target_label": "Dr. David M. Hassenzahl \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/people/staff/kevin-patton-person-page.shtml",
+    "target_label": "Dr. Kevin Patton  \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/people/staff/jeffrey-bell-page.shtml",
+    "target_label": "Dr. Jeffrey Bell \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/people/staff/dustin-bush-person-page.shtml",
+    "target_label": "Dustin Bush  \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/people/staff/patti-salomon-person-page.shtml",
+    "target_label": "Patti Salomon \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/people/staff/catherine-wiggins-person-page.shtml",
+    "target_label": "Catherine Wiggins \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/people/staff/andy-nodzak-person-page.shtml",
+    "target_label": "Andrew Nodzak \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/people/staff/gabby-dacquisto-person-page.shtml",
+    "target_label": "Gabby D'Acquisto \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/people/staff/jaime-nelson-person-page.shtml",
+    "target_label": "Jaime Murphy \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/people/staff/jaydie-lee-person-page.shtml",
+    "target_label": "Jaydie Lee \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/people/staff/sean-nies-person-page.shtml",
+    "target_label": "Sean Nies \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/choose-chico/index.shtml",
+    "target_label": "New Index Page \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/about/distinguished-emeriti/20-21.shtml",
+    "target_label": "2020-2021: Patricia Edelmann \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/about/distinguished-emeriti/19-20.shtml",
+    "target_label": "2019-2020: Rebekah Damazo \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/about/distinguished-emeriti/18-19.shtml",
+    "target_label": "2018\u20132019: Cindy Wolff \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/about/distinguished-emeriti/17-18.shtml",
+    "target_label": "2017\u20132018: David Ball \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/about/distinguished-emeriti/16-17.shtml",
+    "target_label": "2016\u20132017: David Kagan \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/about/distinguished-emeriti/15-16.shtml",
+    "target_label": "2015\u20132016: Sherry Fox \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/about/distinguished-emeriti/14-15.shtml",
+    "target_label": "2014\u20132015: Neil Schwertman \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/about/distinguished-emeriti/13-14.shtml",
+    "target_label": "2013\u20132014: Thomas McCready \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/about/distinguished-emeriti/12-13.shtml",
+    "target_label": "2012\u20132013: Roger Lederer \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/about/distinguished-emeriti/11-12.shtml",
+    "target_label": "2011\u20132012: Larry Kirk \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/about/distinguished-emeriti/10-11.shtml",
+    "target_label": "2010\u20132011: Robert Schlising \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/about/distinguished-emeriti/09-10.shtml",
+    "target_label": "2009\u20132010: Faye Johnson \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/about/distinguished-emeriti/08-09.shtml",
+    "target_label": "2008\u20132009: Gwin Richter \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/about/distinguished-emeriti/07-08.shtml",
+    "target_label": "2007\u20132008: Wes Dempsey \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/about/accomplishments/2019-2020.shtml",
+    "target_label": "2019\u20132020 \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/about/accomplishments/2018-2019.shtml",
+    "target_label": "2018-2019 \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/about/accomplishments/2017-2018.shtml",
+    "target_label": "2017-2018 \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/about/accomplishments/2016-2017.shtml",
+    "target_label": "2016-2017 \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/about/accomplishments/2015-2016.shtml",
+    "target_label": "Accomplishments  \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/about/accomplishments/2014-2015.shtml",
+    "target_label": "Accomplishments  \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/support-college/index.shtml",
+    "target_label": "New Index Page \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/program-portfolio/ba-biol/index.shtml",
+    "target_label": "BA in Biological Sciences \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/program-portfolio/bs-biol/index.shtml",
+    "target_label": "BS in Biology \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/program-portfolio/bs-bchm/index.shtml",
+    "target_label": "BS in Biochemistry \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/program-portfolio/ba-chem/index.shtml",
+    "target_label": "BA in Chemistry \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/program-portfolio/bs-geol/index.shtml",
+    "target_label": "BS in Geology \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/program-portfolio/bs-ensc/index.shtml",
+    "target_label": "BS in Environmental Science \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/program-portfolio/bs-chem/index.shtml",
+    "target_label": "BS in Chemistry \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/program-portfolio/bs-geos/index.shtml",
+    "target_label": "BS in Geosciences \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/program-portfolio/bs-math/index.shtml",
+    "target_label": "BS in Mathematics \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/program-portfolio/bs-nsci/index.shtml",
+    "target_label": "BS in Natural Sciences \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/program-portfolio/bs-mbio/index.shtml",
+    "target_label": "BS in Microbiology \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/program-portfolio/bs-nurs/index.shtml",
+    "target_label": "BS in Nursing \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/program-portfolio/bs-nfsc/index.shtml",
+    "target_label": "BS in Nutrition and Food Sciences \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/program-portfolio/ms-biol/index.shtml",
+    "target_label": "MS in Biological Sciences \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/program-portfolio/bs-phys/index.shtml",
+    "target_label": "BS in Physics \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/program-portfolio/ms-ensc/index.shtml",
+    "target_label": "MS in Environmental Science \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/program-portfolio/ms-geos/index.shtml",
+    "target_label": "MS in Geosciences \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/program-portfolio/ms-nurs/index.shtml",
+    "target_label": "MS in Nursing \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/program-portfolio/ms-nsci/index.shtml",
+    "target_label": "MS in Nutritional Science \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nurs/about/program-portfolio.shtml",
+    "target_label": "Program Portfolio \u2013 School of Nursing \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nurs/programs/bsn/index.shtml",
+    "target_label": "The Bachelor of Science in Nursing \u2013 School of Nursing \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nurs/student-resources/organizations.shtml",
+    "target_label": "Student Organizations \u2013 School of Nursing \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nurs/student-resources/careers.shtml",
+    "target_label": "Careers in Nursing \u2013 School of Nursing \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nurs/preceptors.shtml",
+    "target_label": "Information for Preceptors \u2013 School of Nursing \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nurs/phn-certification.shtml",
+    "target_label": "PHN Certification \u2013 School of Nursing \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nurs/graduation.shtml",
+    "target_label": "Graduation & Pinning \u2013 School of Nursing \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/alumni-friends/distinguished-alumni/2022.shtml",
+    "target_label": "2022 : Monica Soderstrom \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/alumni-friends/distinguished-alumni/2019.shtml",
+    "target_label": "2019: Richard Perry  \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/alumni-friends/distinguished-alumni/2018.shtml",
+    "target_label": "2018: Valerie Lucero \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/alumni-friends/distinguished-alumni/2017.shtml",
+    "target_label": "2017: Janelle L. Ball \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/alumni-friends/distinguished-alumni/2016.shtml",
+    "target_label": "2016: Jeanne Ann Conry \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/alumni-friends/distinguished-alumni/2015.shtml",
+    "target_label": "2015: Debra Geary Hook \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/alumni-friends/distinguished-alumni/2014.shtml",
+    "target_label": "2014: Craig Lindsley \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/alumni-friends/distinguished-alumni/2013.shtml",
+    "target_label": "2013: K. Darwin Murrell \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/alumni-friends/distinguished-alumni/2012.shtml",
+    "target_label": "2012: Jennifer McCallum \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/alumni-friends/distinguished-alumni/2011.shtml",
+    "target_label": "2011: William Carroll \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/alumni-friends/distinguished-alumni/2010.shtml",
+    "target_label": "2010: Leon Warman \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/alumni-friends/distinguished-alumni/2009.shtml",
+    "target_label": "2009: Lance Astrella \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/alumni-friends/distinguished-alumni/2007.shtml",
+    "target_label": "2007: Edward E. Tarver, III \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/alumni-friends/distinguished-alumni/2008.shtml",
+    "target_label": "2008: Suzanna M. Nye \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/alumni-friends/distinguished-alumni/2006.shtml",
+    "target_label": "2006: James E. Millerd \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/alumni-friends/distinguished-alumni/2005.shtml",
+    "target_label": "2005: Douglas G. Jackson \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/alumni-friends/distinguished-alumni/2004.shtml",
+    "target_label": "2004: Jane M. Hightower \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/alumni-friends/distinguished-alumni/2003.shtml",
+    "target_label": "2003: Antoinette Procopio \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/alumni-friends/distinguished-alumni/2002.shtml",
+    "target_label": "2002: Edo D. Pellizzari \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/alumni-friends/distinguished-alumni/2001.shtml",
+    "target_label": "2001: Michael Strand \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/alumni-friends/distinguished-alumni/1999.shtml",
+    "target_label": "1999: Judy Martin-Holland \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/alumni-friends/distinguished-alumni/2000.shtml",
+    "target_label": "2000: Marshall L. Ginter \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/alumni-friends/distinguished-alumni/1998.shtml",
+    "target_label": "1998: Jack Farmer \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/alumni-friends/distinguished-alumni/1997.shtml",
+    "target_label": "1997: Walter Eugene Ryley \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/alumni-friends/distinguished-alumni/1996.shtml",
+    "target_label": "1996: Kenneth E. Lange \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/alumni-friends/distinguished-alumni/1995.shtml",
+    "target_label": "1995: Leta B. Cox \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nurs/programs/rn-bsn/rn-bn-prospective-students.shtml",
+    "target_label": "Apply to the RN-BSN Program \u2013 School of Nursing \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nurs/programs/rn-bsn/rn-bn-info-meetings.shtml",
+    "target_label": "RN-BSN Informational Meetings \u2013 School of Nursing \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nurs/programs/rn-bsn/rn-bsn-current-students.shtml",
+    "target_label": "Enrolled RN-BSN Students \u2013 School of Nursing \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nurs/programs/rn-bsn/rn-bsn-advising.shtml",
+    "target_label": "RN-BSN Program Advising \u2013 School of Nursing \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nurs/programs/rn-bsn/rn-bsn-contact-us.shtml",
+    "target_label": "RN-BSN Faculty & Staff \u2013 School of Nursing \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nurs/about/index.shtml",
+    "target_label": "About the School of Nursing \u2013 School of Nursing \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nurs/programs/bsn/ex-military.shtml",
+    "target_label": "Ex-Military Students \u2013 School of Nursing \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/people/index.shtml",
+    "target_label": "People \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nurs/student-resources/index.shtml",
+    "target_label": "Student Resources \u2013 School of Nursing \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/program-portfolio/bs-nfsc/bs-nfsc-matrix.shtml",
+    "target_label": "BS in Nutrition and Food Sciences \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/program-portfolio/bs-nfsc/bs-nfsc-summary.shtml",
+    "target_label": "BS in Nutrition and Food Sciences \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/program-portfolio/bs-nfsc/highlights.shtml",
+    "target_label": "BS in Nutrition and Food Sciences \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/program-portfolio/bs-nurs/highlights.shtml",
+    "target_label": "BS in Nursing \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/program-portfolio/bs-mbio/bs-mbio-matrix.shtml",
+    "target_label": "BS in Microbiology \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/program-portfolio/bs-mbio/highlights.shtml",
+    "target_label": "Biology Degree Programs \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/program-portfolio/bs-bchm/highlights.shtml",
+    "target_label": "BS in Biochemistry \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/program-portfolio/ms-nsci/ms-nsci-matrix.shtml",
+    "target_label": "MS in Nutritional Science \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/program-portfolio/ms-nsci/ms-nsci-summary.shtml",
+    "target_label": "MS in Nutritional Science \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/program-portfolio/ms-nsci/highlights.shtml",
+    "target_label": "MS in Nutritional Science \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/program-portfolio/bs-math/highlights.shtml",
+    "target_label": "BS in Mathematics \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/program-portfolio/bs-chem/highlights.shtml",
+    "target_label": "BS in Chemistry \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/program-portfolio/ms-ensc/highlights.shtml",
+    "target_label": "MS in Environmental Science \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/program-portfolio/ms-geos/highlights.shtml",
+    "target_label": "MS in Geosciences \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/program-portfolio/bs-geol/highlights.shtml",
+    "target_label": "BS in Geology \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/program-portfolio/ba-biol/ba-biol-matrix.shtml",
+    "target_label": "BA in Biology \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/program-portfolio/ba-biol/highlights.shtml",
+    "target_label": "Biology Degree Programs \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/program-portfolio/bs-ensc/highlights.shtml",
+    "target_label": "BS in Environmental Science \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/program-portfolio/ms-biol/ms-biol-matrix.shtml",
+    "target_label": "MS in Biological Sciences \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/program-portfolio/ms-biol/highlights.shtml",
+    "target_label": "MS in Biological Sciences \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/program-portfolio/ba-chem/highlights.shtml",
+    "target_label": "BA in Chemistry \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/program-portfolio/ms-nurs/highlights.shtml",
+    "target_label": "MS in Nursing \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/program-portfolio/bs-phys/highlights.shtml",
+    "target_label": "BS in Physics \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/program-portfolio/bs-biol/bs-bio-matrix.shtml",
+    "target_label": "BS in Biology \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/program-portfolio/bs-biol/highlights.shtml",
+    "target_label": "Biology Degree Programs \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/rcnp/career-prep/index.shtml",
+    "target_label": "Career Prep \u2013 Rural California Nursing Preceptorships \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/rcnp/eligibility.shtml",
+    "target_label": "Eligibility for The Program \u2013 Rural California Nursing Preceptorships \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/rcnp/locations.shtml",
+    "target_label": "Locations \u2013 Rural California Nursing Preceptorships \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/rcnp/apply.shtml",
+    "target_label": "Applications & Information \u2013 Rural California Nursing Preceptorships \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/rcnp/current-participants.shtml",
+    "target_label": "Current Participants \u2013 Rural California Nursing Preceptorships \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/rcnp/faq.shtml",
+    "target_label": "Frequently Asked Questions \u2013 Rural California Nursing Preceptorships \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/rcnp/career-prep/cover-letters.shtml",
+    "target_label": "Cover Letters \u2013 Rural California Nursing Preceptorships \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/rcnp/career-prep/resumes.shtml",
+    "target_label": "Resumes \u2013 Rural California Nursing Preceptorships \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/rcnp/career-prep/interviews.shtml",
+    "target_label": "Interviews \u2013 Rural California Nursing Preceptorships \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/rcnp/contact.shtml",
+    "target_label": "Contact Information \u2013 Rural California Nursing Preceptorships \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nurs/programs/bsn/enrolled-students.shtml",
+    "target_label": "Enrolled Students \u2013 School of Nursing \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nurs/programs/rn-bsn/rn-bsn-prerequisites.shtml",
+    "target_label": "RN-BSN Prerequisites \u2013 School of Nursing \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/people/staff/vivan-xiong-person-page.shtml",
+    "target_label": "Vivan Xiong \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/people/staff/emily-regan-person-page.shtml",
+    "target_label": "Emily Regan \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "nursing",
+    "start_url": "https://www.csuchico.edu/nurs/index.shtml",
+    "target_url": "https://www.csuchico.edu/nsci/people/staff/neha-person-page.shtml",
+    "target_label": "Neha Gampala \u2013 College of Natural Sciences \u2013 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/school-education/advising.shtml",
+    "target_label": "Advising \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/school-education/credential/index.shtml",
+    "target_label": "Teaching Credential Programs \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/communication-sciences-disorders/stats.shtml",
+    "target_label": "Student Achievement Data \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/school-education/clinical-practice/index.shtml",
+    "target_label": "Clinical Practice \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/school-education/early-field-experience/index.shtml",
+    "target_label": "Early Field Experience \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/school-education/services.shtml",
+    "target_label": "Credential Services \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/school-education/ma-application-process.shtml",
+    "target_label": "Education MA Online: Info and Application \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/school-education/ten-reasons.shtml",
+    "target_label": "10 Reasons to Teach \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/school-education/faculty-staff.shtml",
+    "target_label": "Faculty and Staff \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/school-education/accreditation/index.shtml",
+    "target_label": "Accreditation \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/school-education/grants-scholarships/index.shtml",
+    "target_label": "Financial Aid, Grants and Scholarships \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/school-education/credential/apply.shtml",
+    "target_label": "Credential Application and Workshops \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/school-education/credential/course-sequences.shtml",
+    "target_label": "Course Sequences \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/school-education/credential/internships.shtml",
+    "target_label": "Internships \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/school-education/credential/accreditation.shtml",
+    "target_label": "Performance Data and Accreditation \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/school-education/credential/tpa.shtml",
+    "target_label": "TPA Information \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/school-education/clinical-practice/supervision-toolbox.shtml",
+    "target_label": "Supervision Toolbox \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/communication-sciences-disorders/strategic-plan.shtml",
+    "target_label": "Strategic Plan \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/communication-sciences-disorders/faculty-staff.shtml",
+    "target_label": "Faculty and Staff \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/communication-sciences-disorders/clinic.shtml",
+    "target_label": "Clinic for Communication Disorders \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/communication-sciences-disorders/graduate-program-application.shtml",
+    "target_label": "Graduate Program Application Process \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/school-education/grants-scholarships/mathematics-science-teacher-initiative.shtml",
+    "target_label": "Mathematics and Science Teacher Initiative (MSTI) \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/ape-added-authorization.shtml",
+    "target_label": "APE Added Authorization \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/school-education/accreditation/vision-purpose-framework.shtml",
+    "target_label": "School of Education Vision, Purpose and Conceptual Framework \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/school-education/clinical-practice/student-teaching.shtml",
+    "target_label": "Student Teaching \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/school-education/clinical-practice/residencies.shtml",
+    "target_label": "Residencies \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/school-education/clinical-practice/co-teaching.shtml",
+    "target_label": "Co-Teaching \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/school-education/early-field-experience/atlas.shtml",
+    "target_label": "ATLAS Information \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/communication-studies/forensics.shtml",
+    "target_label": "Speech and Debate Team (Forensics) \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/computer-animation-game-development/internship.shtml",
+    "target_label": "Internships and Professional Development \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/faculty-staff.shtml",
+    "target_label": "Faculty and Staff \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/community-service-programs.shtml",
+    "target_label": "Community and Service Programs \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/facilities.shtml",
+    "target_label": "Facilities and Technology \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/research.shtml",
+    "target_label": "Research and Scholarly Work \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/recreation-hospitality-parks-management/internships.shtml",
+    "target_label": "Internships \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/recreation-hospitality-parks-management/accreditation.shtml",
+    "target_label": "Professional Accreditation \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/recreation-hospitality-parks-management/faculty-staff.shtml",
+    "target_label": "Faculty and Staff \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/computer-animation-game-development/cagd-student-experience/index.shtml",
+    "target_label": "CAGD Student Experience \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/computer-animation-game-development/faculty-staff.shtml",
+    "target_label": "Faculty and Staff \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/computer-animation-game-development/hardware-software.shtml",
+    "target_label": "Hardware and Software Requirements \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/communication-studies/faculty-staff.shtml",
+    "target_label": "Faculty and Staff \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/communication-studies/cmst-awards.shtml",
+    "target_label": "CMST Program Awards \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/communication-studies/honors.shtml",
+    "target_label": "Honors \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/media-arts-design-technology/faculty-staff.shtml",
+    "target_label": "Faculty and Staff \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/media-arts-design-technology/internships.shtml",
+    "target_label": "Internships \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/media-arts-design-technology/kcscradio.shtml",
+    "target_label": "KCSC Radio \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/media-arts-design-technology/student-work.shtml",
+    "target_label": "MADT Student Work \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/journalism-public-relations/faculty-staff.shtml",
+    "target_label": "Faculty and Staff \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/journalism-public-relations/accreditation.shtml",
+    "target_label": "ACEJMC Accreditation \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/journalism-public-relations/orion.shtml",
+    "target_label": "The Orion \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/journalism-public-relations/tehama-group-communications.shtml",
+    "target_label": "Tehama Group Communications \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/journalism-public-relations/guest-speakers.shtml",
+    "target_label": "Guest Speakers \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/liberal-studies/major-academic-plans.shtml",
+    "target_label": "Major Academic Plans (MAP) \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/liberal-studies/elementary-subject-matter-waiver-letter-request.shtml",
+    "target_label": "CSET-ESM Waiver \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/liberal-studies/online-students.shtml",
+    "target_label": "Online Students \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/kinesiology-ba.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/resources/success-center.shtml",
+    "target_label": "CME Student Success Team \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/kinesiology-ba.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/resources/advisor-directory.shtml",
+    "target_label": "Advisor Directory \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/kinesiology-ba.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/index.shtml",
+    "target_label": "Academic Programs and Departments \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/kinesiology-ba.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/resources/index.shtml",
+    "target_label": "Student Resources \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/kinesiology-ba.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/events/index.shtml",
+    "target_label": "CME News and Events \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/kinesiology-ba.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/about/index.shtml",
+    "target_label": "About the College \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/kinesiology-ba.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/about/contact.shtml",
+    "target_label": "Contact Information \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/kinesiology-ba.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/resources/outreach-research-grants.shtml",
+    "target_label": "Office of Outreach, Research, and Grants \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/kinesiology-ba.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/school-education/index.shtml",
+    "target_label": "School of Education \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/kinesiology-ba.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/communication-sciences-disorders/index.shtml",
+    "target_label": "Communication Sciences and Disorders Program \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/kinesiology-ba.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/resources/clubs.shtml",
+    "target_label": "Clubs and Organizations \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/kinesiology-ba.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/resources/center-multicultural-studies.shtml",
+    "target_label": "Center for Bilingual/Multicultural Studies \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/kinesiology-ba.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/kinesiology/index.shtml",
+    "target_label": "Kinesiology Department \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/kinesiology-ba.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/recreation-hospitality-parks-management/index.shtml",
+    "target_label": "Recreation, Hospitality, and Parks Management Department \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/kinesiology-ba.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/about/accreditations/index.shtml",
+    "target_label": "ACEJMC Public Accountability \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/kinesiology-ba.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/communication-studies/index.shtml",
+    "target_label": "Communication Studies Program \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/kinesiology-ba.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/computer-animation-game-development/index.shtml",
+    "target_label": "Computer Animation and Game Development Program \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/kinesiology-ba.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/journalism-public-relations/index.shtml",
+    "target_label": "Journalism and Public Relations Department \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/kinesiology-ba.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/liberal-studies/index.shtml",
+    "target_label": "Liberal Studies Program \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/kinesiology-ba.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/media-arts-design-technology/index.shtml",
+    "target_label": "Media Arts, Design, and Technology Department \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/kinesiology-ba.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/departments/school-of-media.shtml",
+    "target_label": "School of Media, Entertainment, Technology, and Immersive Experiences \u2014 Chico State"
+  },
+  {
+    "persona": "kinesiology",
+    "start_url": "https://www.csuchico.edu/academics/majors-programs/kinesiology-ba.shtml",
+    "target_url": "https://www.csuchico.edu/academics/college/communication-education/events/eppu.shtml",
+    "target_label": "Education Preparation Providers Unit \u2014 Chico State"
+  }
+]

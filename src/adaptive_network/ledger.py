@@ -5,32 +5,52 @@ import json
 import sqlite3
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Any, Dict
+from typing import Any, Dict, Iterable
+
+from .missions import Mission
 
 DEFAULT_DB_PATH = Path("agent_history/ledger.db")
 
-SCHEMA = """
+PROMPTS_TABLE_SQL = """
 CREATE TABLE IF NOT EXISTS prompts (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     hash TEXT UNIQUE NOT NULL,
     body TEXT NOT NULL,
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP
 );
+"""
 
+SCAFFOLDS_TABLE_SQL = """
 CREATE TABLE IF NOT EXISTS scaffolds (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     hash TEXT UNIQUE NOT NULL,
     body TEXT NOT NULL,
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP
 );
+"""
 
+MISSIONS_TABLE_SQL = """
+CREATE TABLE IF NOT EXISTS missions (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    persona TEXT NOT NULL,
+    question TEXT NOT NULL,
+    start_url TEXT NOT NULL,
+    target_url TEXT NOT NULL,
+    target_label TEXT NOT NULL,
+    hardness REAL NOT NULL,
+    UNIQUE(persona, question, start_url, target_url)
+);
+"""
+
+CYCLES_TABLE_SQL = """
 CREATE TABLE IF NOT EXISTS cycles (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     cycle INTEGER NOT NULL,
-    task_id TEXT NOT NULL,
+    mission_id INTEGER NOT NULL,
     persona TEXT NOT NULL,
     success INTEGER NOT NULL,
-    expected_url TEXT NOT NULL,
+    start_url TEXT NOT NULL,
+    target_url TEXT NOT NULL,
     predicted_url TEXT,
     prompt_id INTEGER NOT NULL,
     scaffold_id INTEGER NOT NULL,
@@ -42,21 +62,78 @@ CREATE TABLE IF NOT EXISTS cycles (
     critique_cost REAL,
     total_cost REAL,
     wall_time_ms INTEGER,
-    hops INTEGER,
+    shortest_hops INTEGER,
     critique_state TEXT,
     critique_justification TEXT,
     raw_response TEXT,
     raw_critique TEXT,
-    created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY(mission_id) REFERENCES missions(id)
 );
 """
+
+EXPECTED_CYCLES_COLUMNS = [
+    "id",
+    "cycle",
+    "mission_id",
+    "persona",
+    "success",
+    "start_url",
+    "target_url",
+    "predicted_url",
+    "prompt_id",
+    "scaffold_id",
+    "subagent_tokens_in",
+    "subagent_tokens_out",
+    "subagent_cost",
+    "critique_tokens_in",
+    "critique_tokens_out",
+    "critique_cost",
+    "total_cost",
+    "wall_time_ms",
+    "shortest_hops",
+    "critique_state",
+    "critique_justification",
+    "raw_response",
+    "raw_critique",
+    "created_at",
+]
+
+EXPECTED_MISSIONS_COLUMNS = [
+    "id",
+    "persona",
+    "question",
+    "start_url",
+    "target_url",
+    "target_label",
+    "hardness",
+]
+
+
+def _table_columns(conn: sqlite3.Connection, table: str) -> list[str]:
+    cursor = conn.execute(f"PRAGMA table_info({table})")
+    return [row[1] for row in cursor.fetchall()]
+
+
+def _ensure_table(conn: sqlite3.Connection, table: str, expected_cols: list[str], create_sql: str) -> None:
+    try:
+        cols = _table_columns(conn, table)
+    except sqlite3.OperationalError:
+        cols = []
+    if cols != expected_cols:
+        conn.execute(f"DROP TABLE IF EXISTS {table}")
+        conn.execute(create_sql)
 
 
 def init_db(path: Path | str = DEFAULT_DB_PATH) -> None:
     db_path = Path(path)
     db_path.parent.mkdir(parents=True, exist_ok=True)
     with sqlite3.connect(db_path) as conn:
-        conn.executescript(SCHEMA)
+        conn.execute(PROMPTS_TABLE_SQL)
+        conn.execute(SCAFFOLDS_TABLE_SQL)
+        _ensure_table(conn, "missions", EXPECTED_MISSIONS_COLUMNS, MISSIONS_TABLE_SQL)
+        _ensure_table(conn, "cycles", EXPECTED_CYCLES_COLUMNS, CYCLES_TABLE_SQL)
+        conn.commit()
 
 
 def _save_versioned(table: str, body: str, path: Path | str = DEFAULT_DB_PATH) -> int:
@@ -82,16 +159,60 @@ def save_scaffold(body: str, path: Path | str = DEFAULT_DB_PATH) -> int:
     return _save_versioned("scaffolds", body, path)
 
 
+def register_missions(missions: Iterable[Mission], path: Path | str = DEFAULT_DB_PATH) -> None:
+    with sqlite3.connect(Path(path)) as conn:
+        for mission in missions:
+            conn.execute(
+                """
+                INSERT OR IGNORE INTO missions (
+                    persona,
+                    question,
+                    start_url,
+                    target_url,
+                    target_label,
+                    hardness
+                ) VALUES (?, ?, ?, ?, ?, ?)
+                """,
+                (
+                    mission.persona,
+                    mission.question,
+                    mission.start_url,
+                    mission.target_url,
+                    mission.target_label,
+                    mission.shortest_hops,
+                ),
+            )
+        conn.commit()
+        for mission in missions:
+            cursor = conn.execute(
+                """
+                SELECT id FROM missions
+                WHERE persona = ? AND question = ? AND start_url = ? AND target_url = ?
+                """,
+                (
+                    mission.persona,
+                    mission.question,
+                    mission.start_url,
+                    mission.target_url,
+                ),
+            )
+            row = cursor.fetchone()
+            if row:
+                mission.id = row[0]
+
+
 @dataclass
-class TaskLog:
+class MissionLog:
     cycle: int
-    task_id: str
+    mission_id: int
     persona: str
     success: bool
-    expected_url: str
+    start_url: str
+    target_url: str
     predicted_url: str | None
     prompt_id: int
     scaffold_id: int
+    shortest_hops: int
     subagent_tokens_in: int | None
     subagent_tokens_out: int | None
     subagent_cost: float | None
@@ -100,23 +221,23 @@ class TaskLog:
     critique_cost: float | None
     total_cost: float | None
     wall_time_ms: int | None
-    hops: int
     critique_state: str | None
     critique_justification: str | None
-    raw_response: Dict[str, Any]
-    raw_critique: Dict[str, Any]
+    raw_response: Any
+    raw_critique: Any
 
 
-def log_task(task_log: TaskLog, path: Path | str = DEFAULT_DB_PATH) -> None:
+def log_task(task_log: MissionLog, path: Path | str = DEFAULT_DB_PATH) -> None:
     with sqlite3.connect(Path(path)) as conn:
         conn.execute(
             """
             INSERT INTO cycles (
                 cycle,
-                task_id,
+                mission_id,
                 persona,
                 success,
-                expected_url,
+                start_url,
+                target_url,
                 predicted_url,
                 prompt_id,
                 scaffold_id,
@@ -128,19 +249,20 @@ def log_task(task_log: TaskLog, path: Path | str = DEFAULT_DB_PATH) -> None:
                 critique_cost,
                 total_cost,
                 wall_time_ms,
-                hops,
+                shortest_hops,
                 critique_state,
                 critique_justification,
                 raw_response,
                 raw_critique
-            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             """,
             (
                 task_log.cycle,
-                task_log.task_id,
+                task_log.mission_id,
                 task_log.persona,
                 int(task_log.success),
-                task_log.expected_url,
+                task_log.start_url,
+                task_log.target_url,
                 task_log.predicted_url,
                 task_log.prompt_id,
                 task_log.scaffold_id,
@@ -152,7 +274,7 @@ def log_task(task_log: TaskLog, path: Path | str = DEFAULT_DB_PATH) -> None:
                 task_log.critique_cost,
                 task_log.total_cost,
                 task_log.wall_time_ms,
-                task_log.hops,
+                task_log.shortest_hops,
                 task_log.critique_state,
                 task_log.critique_justification,
                 json.dumps(task_log.raw_response),
