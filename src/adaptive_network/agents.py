@@ -48,6 +48,35 @@ Respond in JSON:
 Return "ok" if the chosen URL matches the expectation, "retry" if the assistant should try again with a short hint, or "fail" if the chosen URL is wrong and a retry would not help.
 """
 
+CONTROLLER_PROMPT = """You are the supervising agent for a self-improving website navigator.
+
+Inputs you receive each cycle:
+- The current controller prompt (what you would change if needed).
+- The persona scaffolds (what context is available to the navigator).
+- A summary of the latest cycle (success/failure counts, per-persona stats, notable failures).
+
+Your job:
+1. Inspect the summary for failure patterns, cost spikes, or regressions.
+2. Decide which lever to adjust next:
+   - "update_prompt" (revise the navigator instructions or top-level brief)
+   - "update_scaffold" (tweak persona scaffolding or graph context)
+   - "no_change" (keep current setup)
+3. Provide a short, actionable suggestion we can apply in code later.
+4. Optionally list a few follow-up questions if more data is required.
+
+Respond **only** in JSON with this format:
+{{
+  "action": "update_prompt" | "update_scaffold" | "no_change",
+  "issues": ["short bullet list of key observations"],
+  "suggestion": "concise recommendation (<=120 words)",
+  "rationale": "why this change should help",
+  "confidence": 0.0-1.0,
+  "follow_up": ["optional questions or data requests"]
+}}
+
+Stay focused on concrete next steps; avoid generic advice.
+"""
+
 
 class ClaudeError(RuntimeError):
     """Raised when Claude API calls fail."""
@@ -269,10 +298,31 @@ def critique_answer(
     return payload, response.raw
 
 
+def run_controller(
+    *,
+    summary: Dict[str, object],
+    controller_prompt: str,
+    scaffolding: Dict[str, List[Dict[str, str]]],
+) -> Tuple[Dict[str, object], Dict[str, object]]:
+    prompt = CONTROLLER_PROMPT.format()
+    body = (
+        f"{prompt}\n\n"
+        f"Current controller prompt:\n{controller_prompt.strip()}\n\n"
+        "Persona scaffolds:\n"
+        f"{json.dumps(scaffolding, ensure_ascii=False, indent=2)}\n\n"
+        "Latest cycle summary:\n"
+        f"{json.dumps(summary, ensure_ascii=False, indent=2)}\n"
+    )
+    response = call_claude(body, max_tokens=600)
+    payload = _parse_json_blob(response.text)
+    return payload, response.raw
+
+
 __all__ = [
     "ClaudeError",
     "ClaudeResponse",
     "call_claude",
     "run_navigation",
     "critique_answer",
+    "run_controller",
 ]

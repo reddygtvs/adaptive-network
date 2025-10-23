@@ -72,6 +72,34 @@ CREATE TABLE IF NOT EXISTS cycles (
 );
 """
 
+CYCLE_METRICS_TABLE_SQL = """
+CREATE TABLE IF NOT EXISTS cycle_metrics (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    cycle INTEGER UNIQUE NOT NULL,
+    successes INTEGER NOT NULL,
+    failures INTEGER NOT NULL,
+    total_cost REAL NOT NULL,
+    payload TEXT NOT NULL,
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+"""
+
+REVISIONS_TABLE_SQL = """
+CREATE TABLE IF NOT EXISTS revisions (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    cycle INTEGER NOT NULL,
+    target TEXT NOT NULL,
+    suggestion TEXT,
+    rationale TEXT,
+    payload TEXT NOT NULL,
+    status TEXT DEFAULT 'pending',
+    prompt_id INTEGER,
+    scaffold_id INTEGER,
+    raw_response TEXT,
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+"""
+
 EXPECTED_CYCLES_COLUMNS = [
     "id",
     "cycle",
@@ -133,6 +161,8 @@ def init_db(path: Path | str = DEFAULT_DB_PATH) -> None:
         conn.execute(SCAFFOLDS_TABLE_SQL)
         _ensure_table(conn, "missions", EXPECTED_MISSIONS_COLUMNS, MISSIONS_TABLE_SQL)
         _ensure_table(conn, "cycles", EXPECTED_CYCLES_COLUMNS, CYCLES_TABLE_SQL)
+        conn.execute(CYCLE_METRICS_TABLE_SQL)
+        conn.execute(REVISIONS_TABLE_SQL)
         conn.commit()
 
 
@@ -279,6 +309,66 @@ def log_task(task_log: MissionLog, path: Path | str = DEFAULT_DB_PATH) -> None:
                 task_log.critique_justification,
                 json.dumps(task_log.raw_response),
                 json.dumps(task_log.raw_critique),
+            ),
+        )
+        conn.commit()
+
+
+def record_cycle_metrics(
+    *,
+    cycle: int,
+    successes: int,
+    failures: int,
+    total_cost: float,
+    payload: Dict[str, Any],
+    path: Path | str = DEFAULT_DB_PATH,
+) -> None:
+    with sqlite3.connect(Path(path)) as conn:
+        conn.execute(
+            """
+            INSERT INTO cycle_metrics (cycle, successes, failures, total_cost, payload)
+            VALUES (?, ?, ?, ?, ?)
+            ON CONFLICT(cycle) DO UPDATE SET
+                successes=excluded.successes,
+                failures=excluded.failures,
+                total_cost=excluded.total_cost,
+                payload=excluded.payload
+            """,
+            (cycle, successes, failures, total_cost, json.dumps(payload)),
+        )
+        conn.commit()
+
+
+def log_revision(
+    *,
+    cycle: int,
+    target: str,
+    suggestion: str | None,
+    rationale: str | None,
+    payload: Dict[str, Any],
+    status: str = "pending",
+    prompt_id: int | None = None,
+    scaffold_id: int | None = None,
+    raw_response: Dict[str, Any] | None = None,
+    path: Path | str = DEFAULT_DB_PATH,
+) -> None:
+    with sqlite3.connect(Path(path)) as conn:
+        conn.execute(
+            """
+            INSERT INTO revisions (
+                cycle, target, suggestion, rationale, payload, status, prompt_id, scaffold_id, raw_response
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+            """,
+            (
+                cycle,
+                target,
+                suggestion,
+                rationale,
+                json.dumps(payload),
+                status,
+                prompt_id,
+                scaffold_id,
+                json.dumps(raw_response) if raw_response is not None else None,
             ),
         )
         conn.commit()

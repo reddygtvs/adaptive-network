@@ -70,10 +70,11 @@ python agent_loop.py
 - Loads persona scaffolds from the refined graph (start page only; everything else must be fetched through expansions).
 - Runs every mission with the navigator, which repeatedly requests outgoing links before locking in a final URL.
 - Sends the prediction through a critique pass and records tokens, costs, and outcomes in `agent_history/ledger.db`.
+- Aggregates the cycle into `cycle_metrics`, then asks a supervising controller (glm-4.6) for the next improvement step; the suggestion lands in `revisions`.
 
 ### Output reference
 - CLI prints per-mission success flags, token totals, elapsed time, and USD cost (input $0.60/M, cached $0.11/M, output $2.20/M for `glm-4.6`).
-- SQLite keeps every cycle in `agent_history/ledger.db`, including raw navigator turns and critique payloads for later analysis.
+- SQLite keeps every cycle in `agent_history/ledger.db`, including raw navigator turns, critique payloads, per-cycle summaries, and controller suggestions.
 
 ## Mission tweaks
 - Edit `data/missions.json` to add/remove missions (persona, start URL, target URL, label, question).
