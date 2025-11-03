@@ -10,6 +10,12 @@ agent_history/
 scrape_output*.log
 arxiv_search.html
 .venv/
+src/adaptive_network/missions_markov.py
+Untitled36.ipynb
+benchmark_results.json
+benchmark_*.json
+benchmark_series/
+demo_cycle.out
 
 # Local Claude configuration
 .claude

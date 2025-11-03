@@ -7,6 +7,8 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Dict, Iterable, List, Optional, Tuple
 
+import time
+
 import requests
 
 from .graph import neighbors, page_label
@@ -53,28 +55,40 @@ CONTROLLER_PROMPT = """You are the supervising agent for a self-improving websit
 Inputs you receive each cycle:
 - The current controller prompt (what you would change if needed).
 - The persona scaffolds (what context is available to the navigator).
+- The subagent configuration settings.
 - A summary of the latest cycle (success/failure counts, per-persona stats, notable failures).
 
 Your job:
 1. Inspect the summary for failure patterns, cost spikes, or regressions.
 2. Decide which lever to adjust next:
-   - "update_prompt" (revise the navigator instructions or top-level brief)
-   - "update_scaffold" (tweak persona scaffolding or graph context)
-   - "no_change" (keep current setup)
-3. Provide a short, actionable suggestion we can apply in code later.
-4. Optionally list a few follow-up questions if more data is required.
+   - "update_prompt" (rewrite the main controller prompt)
+   - "update_scaffold" (adjust persona scaffolding: add/remove URLs, reorder priorities)
+   - "update_subagent" (tweak execution parameters such as max expansions, neighbor limit)
+   - "no_change" (keep current setup when metrics look stable)
+3. Provide a concise plan plus any data needed for implementation.
 
 Respond **only** in JSON with this format:
-{{
-  "action": "update_prompt" | "update_scaffold" | "no_change",
+{
+  "action": "...",
   "issues": ["short bullet list of key observations"],
   "suggestion": "concise recommendation (<=120 words)",
   "rationale": "why this change should help",
   "confidence": 0.0-1.0,
-  "follow_up": ["optional questions or data requests"]
-}}
+  "follow_up": ["optional questions or data requests"],
+  "updated_asset": "full prompt text to use next"           # required when action == "update_prompt"
+  "scaffold_diff": {                                       # required when action == "update_scaffold"
+      "persona": "<persona or 'all'>",
+      "add": [{"url": "...", "label": "..."}],
+      "remove": ["<url>", "..."]
+  },
+  "config_updates": {                                      # required when action == "update_subagent"
+      "base_max_expansions": 6,
+      "neighbor_limit": 8,
+      "hardness_offset": 2
+  }
+}
 
-Stay focused on concrete next steps; avoid generic advice.
+Leave unused fields out or set them to null. Stay focused on concrete next steps; avoid generic advice.
 """
 
 
@@ -116,6 +130,8 @@ def call_claude(
     timeout: int = 120,
     max_tokens: int = 600,
     system: Optional[str] = None,
+    retries: int = 3,
+    retry_backoff: float = 1.5,
 ) -> ClaudeResponse:
     base_url, token = _load_credentials()
 
@@ -125,25 +141,43 @@ def call_claude(
         "anthropic-version": "2023-06-01",
     }
 
-    messages = []
-    if system:
-        messages.append({"role": "system", "content": [{"type": "text", "text": system}]})
-    messages.append({"role": "user", "content": [{"type": "text", "text": prompt}]})
-
     payload = {
         "model": model,
         "max_tokens": max_tokens,
-        "messages": messages,
+        "messages": [{"role": "user", "content": [{"type": "text", "text": prompt}]}],
     }
+    if system:
+        payload["system"] = system
 
-    response = requests.post(
-        f"{base_url}/v1/messages",
-        headers=headers,
-        json=payload,
-        timeout=timeout,
-    )
-    if response.status_code >= 400:
-        raise ClaudeError(f"Claude API error {response.status_code}: {response.text}")
+    last_error: Optional[str] = None
+    for attempt in range(max(1, retries)):
+        try:
+            response = requests.post(
+                f"{base_url}/v1/messages",
+                headers=headers,
+                json=payload,
+                timeout=timeout,
+            )
+        except requests.RequestException as exc:
+            last_error = str(exc)
+            if attempt == retries - 1:
+                raise ClaudeError(f"Claude API request failed: {exc}") from exc
+            time.sleep(retry_backoff * (attempt + 1))
+            continue
+
+        if response.status_code >= 500:
+            last_error = response.text
+            if attempt == retries - 1:
+                raise ClaudeError(f"Claude API error {response.status_code}: {response.text}")
+            time.sleep(retry_backoff * (attempt + 1))
+            continue
+
+        if response.status_code >= 400:
+            raise ClaudeError(f"Claude API error {response.status_code}: {response.text}")
+
+        break
+    else:
+        raise ClaudeError(f"Claude API error: {last_error or 'unknown failure'}")
 
     data = response.json()
     text = "".join(
@@ -185,6 +219,30 @@ def _canon(url: str | None) -> str:
     if not url:
         return ""
     return url.rstrip("/").lower()
+
+
+def plan_brief(
+    *,
+    system_prompt: str,
+    persona: str,
+    question: str,
+    start_label: str,
+    start_url: str,
+) -> Dict[str, object]:
+    prompt = (
+        f"Persona: {persona}\n"
+        f"Mission: {question}\n"
+        f"Start page label: {start_label}\n"
+        f"Start page URL: {start_url}\n"
+        "Return JSON with keys 'brief' and 'notes'."
+    )
+    response = call_claude(prompt, max_tokens=160, system=system_prompt)
+    payload = _parse_json_blob(response.text)
+    if "brief" not in payload:
+        payload["brief"] = payload.get("task_brief") or ""
+    if "notes" not in payload:
+        payload["notes"] = payload.get("notes") or ""
+    return {"brief": str(payload.get("brief", "")).strip(), "notes": str(payload.get("notes", "")).strip()}
 
 
 def run_navigation(
@@ -303,13 +361,15 @@ def run_controller(
     summary: Dict[str, object],
     controller_prompt: str,
     scaffolding: Dict[str, List[Dict[str, str]]],
+    config: Dict[str, object],
 ) -> Tuple[Dict[str, object], Dict[str, object]]:
-    prompt = CONTROLLER_PROMPT.format()
     body = (
-        f"{prompt}\n\n"
+        f"{CONTROLLER_PROMPT}\n\n"
         f"Current controller prompt:\n{controller_prompt.strip()}\n\n"
         "Persona scaffolds:\n"
         f"{json.dumps(scaffolding, ensure_ascii=False, indent=2)}\n\n"
+        "Subagent configuration:\n"
+        f"{json.dumps(config, ensure_ascii=False, indent=2)}\n\n"
         "Latest cycle summary:\n"
         f"{json.dumps(summary, ensure_ascii=False, indent=2)}\n"
     )
@@ -322,6 +382,7 @@ __all__ = [
     "ClaudeError",
     "ClaudeResponse",
     "call_claude",
+    "plan_brief",
     "run_navigation",
     "critique_answer",
     "run_controller",

@@ -351,7 +351,7 @@ def log_revision(
     scaffold_id: int | None = None,
     raw_response: Dict[str, Any] | None = None,
     path: Path | str = DEFAULT_DB_PATH,
-) -> None:
+) -> int:
     with sqlite3.connect(Path(path)) as conn:
         conn.execute(
             """
@@ -371,4 +371,65 @@ def log_revision(
                 json.dumps(raw_response) if raw_response is not None else None,
             ),
         )
+        revision_id = conn.execute("SELECT last_insert_rowid()").fetchone()[0]
         conn.commit()
+        return int(revision_id)
+
+
+def update_revision_status(
+    *,
+    revision_id: int,
+    status: str,
+    payload: Dict[str, Any] | None = None,
+    prompt_id: int | None = None,
+    scaffold_id: int | None = None,
+    path: Path | str = DEFAULT_DB_PATH,
+) -> None:
+    with sqlite3.connect(Path(path)) as conn:
+        conn.execute(
+            """
+            UPDATE revisions
+            SET status = ?, 
+                payload = COALESCE(?, payload),
+                prompt_id = COALESCE(?, prompt_id),
+                scaffold_id = COALESCE(?, scaffold_id)
+            WHERE id = ?
+            """,
+            (
+                status,
+                json.dumps(payload) if payload is not None else None,
+                prompt_id,
+                scaffold_id,
+                revision_id,
+            ),
+        )
+        conn.commit()
+
+
+def load_latest_prompt(default_body: str, path: Path | str = DEFAULT_DB_PATH) -> tuple[int, str]:
+    with sqlite3.connect(Path(path)) as conn:
+        row = conn.execute("SELECT id, body FROM prompts ORDER BY id DESC LIMIT 1").fetchone()
+        if row:
+            return int(row[0]), row[1]
+    prompt_id = save_prompt(default_body, path)
+    return prompt_id, default_body
+
+
+def load_latest_scaffold(default_body: str, path: Path | str = DEFAULT_DB_PATH) -> tuple[int, str]:
+    with sqlite3.connect(Path(path)) as conn:
+        row = conn.execute("SELECT id, body FROM scaffolds ORDER BY id DESC LIMIT 1").fetchone()
+        if row:
+            return int(row[0]), row[1]
+    scaffold_id = save_scaffold(default_body, path)
+    return scaffold_id, default_body
+
+
+def latest_cycle_number(path: Path | str = DEFAULT_DB_PATH) -> int:
+    with sqlite3.connect(Path(path)) as conn:
+        row = conn.execute("SELECT MAX(cycle) FROM cycle_metrics").fetchone()
+        if row and row[0] is not None:
+            return int(row[0])
+        row = conn.execute("SELECT MAX(cycle) FROM cycles").fetchone()
+        if row and row[0] is not None:
+            return int(row[0])
+    return 0

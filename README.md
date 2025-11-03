@@ -68,14 +68,17 @@ python agent_loop.py
 
 ### What a cycle does
 - Loads persona scaffolds from the refined graph (start page only; everything else must be fetched through expansions).
-- Runs every mission with the navigator, which repeatedly requests outgoing links before locking in a final URL.
-- Sends the prediction through a critique pass and records tokens, costs, and outcomes in `agent_history/ledger.db`.
-- Aggregates the cycle into `cycle_metrics`, then asks a supervising controller (glm-4.6) for the next improvement step; the suggestion lands in `revisions`.
+- Runs mission batches through the planner → navigator → critique pipeline (`src/adaptive_network/engine.py`).
+- Logs every turn plus token/cost usage to SQLite (`agent_history/ledger.db`) via `ledger.py`.
+- Asks the supervising controller for a follow-up action; scaffold & config updates auto-apply, prompt rewrites stay manual.
 
 ### Output reference
 - CLI prints per-mission success flags, token totals, elapsed time, and USD cost (input $0.60/M, cached $0.11/M, output $2.20/M for `glm-4.6`).
-- SQLite keeps every cycle in `agent_history/ledger.db`, including raw navigator turns, critique payloads, per-cycle summaries, and controller suggestions.
+- SQLite keeps raw navigator turns, critique payloads, per-cycle summaries, controller suggestions, and applied scaffold diffs.
+- Benchmarks live in `benchmark_results.json` + `benchmark_series/` and stay out of git; regenerate with `scripts/run_benchmarks.py`.
 
 ## Mission tweaks
 - Edit `data/missions.json` to add/remove missions (persona, start URL, target URL, label, question).
-- Adjust the navigator prompt directly inside `src/adaptive_network/agents.py` if you want different tooling rules.
+- Extend or swap persona scaffolds in `src/adaptive_network/graph.py` (mirrors CSU Chico; drop in alternate graphs if you prefer).
+- Tweak navigator/critique/controller prompts inside `src/adaptive_network/agents.py`; planner brief + controller JSON schema live there.
+- Controller suggestions persist in SQLite (`revisions` table); inspect them if you want to apply prompt updates by hand.
