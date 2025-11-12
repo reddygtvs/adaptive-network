@@ -516,13 +516,18 @@ def _apply_controller_suggestion(
     scaffold_changed = False
 
     if action == "update_prompt":
-        print("Controller requested prompt update; skipping (prompt locked).")
-        ledger.update_revision_status(
-            revision_id=revision_id,
-            status="skipped_prompt_locked",
-            path=db_path,
-        )
-        return prompt_body, prompt_id, persona_bases, scaffold_id, config, False
+        updated_prompt = (payload.get("updated_asset") or "").strip()
+        if not updated_prompt:
+            ledger.update_revision_status(
+                revision_id=revision_id,
+                status="skipped_prompt_missing",
+                path=db_path,
+            )
+            return prompt_body, prompt_id, persona_bases, scaffold_id, config, False
+        new_prompt_body = updated_prompt
+        new_prompt_id = ledger.save_prompt(new_prompt_body, path=db_path)
+        new_payload["applied_prompt"] = True
+        updated = True
 
     if action == "update_scaffold":
         diff = payload.get("scaffold_diff") or {}
@@ -545,8 +550,10 @@ def _apply_controller_suggestion(
     if not updated:
         return prompt_body, prompt_id, persona_bases, scaffold_id, config, False
 
-    scaffold_body = _build_scaffold_body(persona_bases, new_config)
-    new_scaffold_id = ledger.save_scaffold(scaffold_body, path=db_path)
+    if scaffold_changed:
+        scaffold_body = _build_scaffold_body(persona_bases, new_config)
+        new_scaffold_id = ledger.save_scaffold(scaffold_body, path=db_path)
+
     new_payload["prompt_id"] = new_prompt_id
     new_payload["scaffold_id"] = new_scaffold_id
 
@@ -559,6 +566,36 @@ def _apply_controller_suggestion(
         path=db_path,
     )
     return new_prompt_body, new_prompt_id, persona_bases, new_scaffold_id, new_config, True
+
+
+def _print_controller_thoughts(payload: Dict[str, Any]) -> None:
+    print("\nController thought process:")
+    issues = payload.get("issues")
+    if isinstance(issues, list) and issues:
+        print("  Issues:", "; ".join(str(item) for item in issues))
+    else:
+        print("  Issues: (not specified)")
+
+    print(
+        "  Prompt:",
+        "proposal received" if payload.get("updated_asset") else "no change proposed",
+    )
+    config_updates = payload.get("config_updates")
+    if isinstance(config_updates, dict) and config_updates:
+        print(f"  Sub-agent config: {config_updates}")
+    else:
+        print("  Sub-agent config: no change proposed")
+    scaffold_diff = payload.get("scaffold_diff")
+    if isinstance(scaffold_diff, dict) and scaffold_diff:
+        persona = scaffold_diff.get("persona", "unspecified")
+        adds = scaffold_diff.get("add")
+        removes = scaffold_diff.get("remove")
+        print(f"  Scaffold ({persona}): add={adds or []} remove={removes or []}")
+    else:
+        print("  Scaffold: no change proposed")
+    suggestion = payload.get("suggestion")
+    if suggestion:
+        print("  Suggestion:", suggestion)
 
 
 def main(
@@ -633,6 +670,7 @@ def main(
 
         confidence = controller_payload.get("confidence")
         print(f"Controller action: {action} | confidence={confidence}")
+        _print_controller_thoughts(controller_payload if isinstance(controller_payload, dict) else {})
 
         actionable = action in {"update_prompt", "update_scaffold", "update_subagent"}
         if not actionable:
