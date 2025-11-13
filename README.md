@@ -11,14 +11,18 @@
   - `graph.py` (persona scaffolds and neighbor lookup)
   - `ledger.py` (SQLite helpers)
   - `missions.py` (mission loader)
+- `scripts/` — utilities:
+  - `run_benchmarks.py` (greedy/markov/random baselines)
+  - `print_baseline_summary.py` (tables for the latest runs)
+  - `manage_scaffolds.py` (regenerate persona scaffolds from the graph)
 
 ## Requirements
 - Python ≥ 3.10
-- `requests`, `networkx`
+- `requests`, `networkx`, `pydantic`
 
 ```bash
 python -m pip install --upgrade pip
-python -m pip install requests networkx
+python -m pip install requests networkx pydantic
 ```
 
 ## Install Claude Code CLI
@@ -82,3 +86,15 @@ python agent_loop.py
 - Extend or swap persona scaffolds in `src/adaptive_network/graph.py` (mirrors CSU Chico; drop in alternate graphs if you prefer).
 - Tweak navigator/critique/controller prompts inside `src/adaptive_network/agents.py`; planner brief + controller JSON schema live there.
 - Controller suggestions persist in SQLite (`revisions` table); inspect them if you want to apply prompt updates by hand.
+- `--cycles N` — number of cycles to run (default 1).
+- `--missions PATH` — alternate missions file (default `data/missions.json`).
+- `--db-path PATH` — SQLite ledger location; new path starts at cycle 1.
+- `--batch-size N` — missions per batch (default 10).
+- `--stagger SECONDS` — delay between mission launches within a batch (default 0.35).
+- `--auto` — apply controller suggestions without prompting.
+- `--limit N` — process only N missions per cycle (wraps across cycles).
+
+Benchmarks & scaffolds:
+- `python scripts/run_benchmarks.py [--mission-limit N --budget M --markov-skip K --output FILE]`
+- `python scripts/print_baseline_summary.py`
+- `python scripts/manage_scaffolds.py regen --persona {all|name} [--limit N --db-path PATH]`
