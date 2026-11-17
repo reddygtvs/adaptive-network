@@ -1,5 +1,13 @@
 # Adaptive Network Self-Improver
 
+A user asks a question, and an agent navigates the csuchico.edu website to get to the answer. We improve the agent by running it and its subagents over many cycles and scoring every run.
+
+A main agent writes a brief for each of 120 missions. A navigator subagent sees only the start page and has to come back with a URL, and a critique step checks it. Everything is logged to SQLite between cycles. A supervising agent then reads the numbers and can rewrite the prompt, update the starter links, or leave things as they are.
+
+We ran it for 50 cycles (6,000 runs) on a graph of 9,286 pages and 208,470 links. The success rate went from 65.8% to 83.3%, the time per mission went from about 15 seconds to about 8, and the whole run cost about $23. It is also compared against greedy, Markov and random baselines.
+
+Research at CSU Chico under Dr. Richard Tillquist, written up as the poster "Self Improving Network Structures".
+
 ## Repository layout
 - `agent_loop.py` — entry point that runs one or more navigation cycles.
 - `csuchico_graph.py` — full CSU Chico crawl (9,286 nodes).
